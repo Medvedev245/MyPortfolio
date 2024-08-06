@@ -1,7 +1,14 @@
 import React from 'react';
 
 const Header: React.FC = () => {
-  return <div>Header</div>;
+  return (
+    <div>
+      <div>Logo</div>
+      <nav>nav</nav>
+      <div>leng</div>
+      <div>theme</div>
+    </div>
+  );
 };
 
 export default Header;
