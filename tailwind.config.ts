@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}', // Убедитесь, что добавлены все нужные расширения
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        1200: '1200px',
+      },
+    },
   },
   plugins: [],
 };
