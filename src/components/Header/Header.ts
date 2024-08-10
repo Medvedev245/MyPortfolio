@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -18,4 +19,14 @@ export const HeaderContainer = styled.header`
   @media screen and (max-width: 767px) {
     width: 320px;
   }
+`;
+
+export const LogoLink = styled(Link)`
+  color: red;
+`;
+
+export const List = styled.ul`
+  display: flex;
+  gap: 20px;
+  list-style: none;
 `;
