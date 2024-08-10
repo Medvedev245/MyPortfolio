@@ -4,16 +4,16 @@ export const GlobalStyle = createGlobalStyle`
 
 :root {
   // Colors
-   /* --iq-primary: rgba(187,154,230, 1); // лнопка описание
-   --iq-secondary: rgba(214, 210, 210, 0.624); // задний фон
-   --iq-underlining: rgba(187, 154, 230, 0.342);
+    --iq-Logo: #149ddd; // Logo
+    --iq-underlining: rgba(187, 154, 230, 0.342);
+    /* --iq-letters: #afb1b8 // Header Letters
    --iq-cross: rgba(88, 5, 143, 1);
-   --iq-boxShadow: rgba(136, 85, 187, 1); // boxShadow */
+   --iq-boxShadow: rgba(136, 85, 187, 1); // boxShadow */ 
 
 
  //tablet
-  /* @media screen and (max-width: 1200px) {
-  } */
+   /* @media screen and (max-width: 1200px) { */
+  /* }  */
 
  // Mobil
   /* @media screen and (max-width: 767px) {
