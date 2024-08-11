@@ -2,9 +2,10 @@ import React from 'react';
 import {
   HeaderContainer,
   HeaderWrap,
-  List,
+  ListNav,
   LogoLink,
   LinkElement,
+  ListLeng,
 } from './Header';
 
 const Header: React.FC = () => {
@@ -13,52 +14,52 @@ const Header: React.FC = () => {
       <HeaderContainer>
         <LogoLink to="/MyPortfolio">MyPortfolio</LogoLink>
         <nav>
-          <List>
+          <ListNav>
             <li>
               <LinkElement href="#about" title="About me">
-                About me
+                About
               </LinkElement>
             </li>
             <li>
-              <a href="#education" title="Education">
+              <LinkElement href="#education" title="Education">
                 Education
-              </a>
+              </LinkElement>
             </li>
             <li>
-              <a href="#skills" title="Skills">
+              <LinkElement href="#skills" title="Skills">
                 Skills
-              </a>
+              </LinkElement>
             </li>
             <li>
-              <a href="#workExperience" title="Work Experience">
-                Work Experience
-              </a>
+              <LinkElement href="#workExperience" title="Work Experience">
+                Experience
+              </LinkElement>
             </li>
             <li>
-              <a href="#projects" title="Projects">
+              <LinkElement href="#projects" title="Projects">
                 Projects
-              </a>
+              </LinkElement>
             </li>
             <li>
-              <a href="#contacts" title="Contacts">
+              <LinkElement href="#contacts" title="Contacts">
                 Contacts
-              </a>
+              </LinkElement>
             </li>
-          </List>
+          </ListNav>
         </nav>
         <div>
-          <ul>
+          <ListLeng>
             <li>cz</li>
             <li>en</li>
             <li>ua</li>
-          </ul>
+          </ListLeng>
         </div>
-        <div>
+        {/* <div>
           <ul>
             <li>black</li>
             <li>white</li>
           </ul>
-        </div>
+        </div> */}
       </HeaderContainer>
     </HeaderWrap>
   );

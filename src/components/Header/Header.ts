@@ -35,12 +35,29 @@ export const LogoLink = styled(Link)`
   color: var(--iq-Logo);
 `;
 
-export const List = styled.ul`
+export const ListNav = styled.ul`
+  height: 70px;
   display: flex;
-  gap: 20px;
+  gap: 15px;
   list-style: none;
+  align-items: center;
 `;
 
 export const LinkElement = styled.a`
+  display: flex;
+  height: 70px;
+  text-decoration: none;
   color: var(--iq-underlining);
+  font-size: var(--font-size-mobile);
+  align-items: center;
+  &:hover,
+  &:focus {
+    color: white;
+  }
+`;
+
+export const ListLeng = styled.ul`
+  display: flex;
+  gap: 15px;
+  list-style: none;
 `;
