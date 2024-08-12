@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export const HeaderWrap = styled.div`
   width: 100%;
   background-color: rgba(66, 64, 68, 1);
+  margin-bottom: 80px;
 `;
 
 export const HeaderContainer = styled.header`
@@ -15,7 +16,6 @@ export const HeaderContainer = styled.header`
   height: 70px;
   margin: 0 auto;
   padding: 0 20px;
-  margin-bottom: 40px;
   @media screen and (max-width: 1200px) {
     max-width: 768px;
     justify-content: space-evenly;
@@ -78,12 +78,14 @@ export const LinkElement = styled.a`
   font-size: var(--font-size-mobile);
   align-items: center;
   transition: color 0.3s ease;
+  font-size: 20px;
   &:hover,
   &:focus {
     color: white;
   }
   @media screen and (max-width: 1200px) {
     font-size: 12px;
+    font-size: 15px;
   }
 
   @media screen and (max-width: 767px) {
