@@ -33,7 +33,7 @@ const Header: React.FC = () => {
               </LinkElement>
             </li>
             <li>
-              <LinkElement href="#workExperience" title="Work Experience">
+              <LinkElement href="#experience" title="Experience">
                 Experience
               </LinkElement>
             </li>
