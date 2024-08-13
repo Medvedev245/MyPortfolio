@@ -79,14 +79,14 @@ export const Img = styled.img`
     transform: translateY(-1px); /* Приподнимает изображение на 10px */
   }
   @media screen and (max-width: 1200px) {
-    /* width: 300px;
-    height: 300px; */
+    width: 410px;
+    height: 490px;
     margin-bottom: 20px;
   }
 
   @media screen and (max-width: 767px) {
-    width: 305px;
-    height: 375px;
+    width: 280px;
+    height: 325px;
   }
 `;
 

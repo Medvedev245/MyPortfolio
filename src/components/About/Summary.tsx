@@ -8,7 +8,7 @@ import {
   AboutWrap,
   AboutDesc,
   Text,
-} from './About.styled';
+} from './Summary.styled';
 import MyPhoto from '../../Files/me.jpg';
 const About: React.FC = () => {
   return (

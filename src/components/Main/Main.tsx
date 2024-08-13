@@ -1,4 +1,4 @@
-import About from 'components/About/About';
+import Summary from 'components/About/Summary';
 import Education from 'components/Education/Education';
 import Experience from 'components/Experience/Experience';
 import Projects from 'components/Projects/Projects';
@@ -9,7 +9,7 @@ import { MainContainer } from './Main.styled';
 const Main: React.FC = () => {
   return (
     <MainContainer>
-      <About />
+      <Summary />
       <Education />
       <Skills />
       <Experience />
