@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
 export const AboutSection = styled.section`
-  /* width: 1200px; */
   width: 100%;
   margin-bottom: 80px;
   @media screen and (max-width: 1200px) {
-    /* max-width: 768px; */
   }
 
   @media screen and (max-width: 767px) {
@@ -27,7 +25,30 @@ export const AboutWrap = styled.div`
 `;
 
 export const AboutText = styled.h1`
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+  font-size: 45px;
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 20px;
+    /* font-size: 20px; */
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+`;
+export const AboutDesc = styled.h2`
+  font-size: 30px;
+  margin-bottom: 15px;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 28px;
+  }
+`;
+
+export const Text = styled.p`
+  font-size: 25px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.3;
 `;
 
 export const PhotoWrap = styled.div`
@@ -36,14 +57,15 @@ export const PhotoWrap = styled.div`
   flex-wrap: nowrap;
   gap: 70px;
   margin: 0 auto;
-  align-items: center;
+  align-items: flex-start;
 
   @media screen and (max-width: 1200px) {
+    align-items: center;
     gap: 20px;
+    flex-direction: column;
   }
 
   @media screen and (max-width: 767px) {
-    flex-direction: column;
   }
 `;
 
@@ -57,24 +79,24 @@ export const Img = styled.img`
     transform: translateY(-1px); /* Приподнимает изображение на 10px */
   }
   @media screen and (max-width: 1200px) {
-    width: 300px;
-    height: 300px;
+    /* width: 300px;
+    height: 300px; */
+    margin-bottom: 20px;
   }
 
   @media screen and (max-width: 767px) {
     width: 305px;
     height: 375px;
-    margin-bottom: 20px;
   }
 `;
 
-export const Descr = styled.p`
-  font-size: 26px;
-  font-weight: 500;
-  text-align: justify;
-  line-height: 1.5;
+export const Descr = styled.div`
+  /* height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; */
   @media screen and (max-width: 1200px) {
-    font-size: 20px;
+    /* font-size: 20px; */
   }
 `;
 
