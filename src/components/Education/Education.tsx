@@ -1,14 +1,21 @@
 import React from 'react';
+import {
+  EducationDescr,
+  EducationSection,
+  FewWords,
+  SpanAbout,
+  Motivation,
+} from './Education.styled';
 
 const Education: React.FC = () => {
   return (
-    <section>
-      <p>a few words about me</p>
-      <span>About</span>
-      <p>
+    <EducationSection>
+      <FewWords>a few words about me</FewWords>
+      <SpanAbout>About</SpanAbout>
+      <Motivation>
         "Your determination and perseverance define your future. Never give up!"
-      </p>
-      <p>
+      </Motivation>
+      <EducationDescr>
         Hello everyone, my name is Igor. I’m from Kyiv, Ukraine. Currently, I
         live and work at Vysočinské nemocnice in Humpolec, Czech Republic, where
         I’ve been for the past 2 years. I graduated from Medical University in
@@ -20,8 +27,8 @@ const Education: React.FC = () => {
         course from January 20, 2023, to February 14, 2024, and will receive a
         certificate. I currently have 6 projects in my portfolio, including both
         team-based and individual projects.
-      </p>
-    </section>
+      </EducationDescr>
+    </EducationSection>
   );
 };
 
