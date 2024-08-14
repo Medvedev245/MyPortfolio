@@ -10,7 +10,7 @@ import {
 const Education: React.FC = () => {
   return (
     <EducationSection>
-      <FewWords>a few words about me</FewWords>
+      <FewWords>A few words about me</FewWords>
       <SpanAbout>About</SpanAbout>
       <Motivation>
         "Your determination and perseverance define your future. Never give up!"
