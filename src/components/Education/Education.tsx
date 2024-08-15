@@ -10,12 +10,12 @@ import {
 const Education: React.FC = () => {
   return (
     <EducationSection>
-      <FewWords>A few words about me</FewWords>
+      <FewWords>A FEW WORDS ABOUT ME.</FewWords>
       <SpanAbout>About</SpanAbout>
       <Motivation>
         "Your determination and perseverance define your future. Never give up!"
       </Motivation>
-      <EducationDescr>
+      {/* <EducationDescr>
         Hello everyone, my name is Igor. I’m from Kyiv, Ukraine. Currently, I
         live and work at Vysočinské nemocnice in Humpolec, Czech Republic, where
         I’ve been for the past 2 years. I graduated from Medical University in
@@ -27,7 +27,7 @@ const Education: React.FC = () => {
         course from January 20, 2023, to February 14, 2024, and will receive a
         certificate. I currently have 6 projects in my portfolio, including both
         team-based and individual projects.
-      </EducationDescr>
+      </EducationDescr> */}
     </EducationSection>
   );
 };

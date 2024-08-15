@@ -15,15 +15,16 @@ export const EducationSection = styled.section`
 `;
 
 export const FewWords = styled.p`
-  margin: 0; /* Optional: Adjust as needed */
-  padding-left: 70px; /* Add padding to create space for the line */
+  margin: 0 0 40px 0; /* Optional: Adjust as needed */
+  padding-left: 115px; /* Add padding to create space for the line */
   position: relative;
   color: blue;
+  font-size: 25px;
   &::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     width: 100px;
     height: 1px;
@@ -31,7 +32,11 @@ export const FewWords = styled.p`
   }
 `;
 
-export const SpanAbout = styled.span``;
+export const SpanAbout = styled.p`
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+`;
 
 export const Motivation = styled.p``;
 
