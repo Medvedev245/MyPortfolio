@@ -6,8 +6,8 @@ export const GlobalStyle = createGlobalStyle`
   // Colors
     --iq-Logo: #149ddd; // Logo
     --iq-underlining: #afb1b8;
-    /* --iq-letters: #afb1b8 // Header Letters
-   --iq-cross: rgba(88, 5, 143, 1);
+    --secondary-color: #757575 // Header Letters
+   /*--iq-cross: rgba(88, 5, 143, 1);
    --iq-boxShadow: rgba(136, 85, 187, 1); // boxShadow */ 
 
 
@@ -17,11 +17,11 @@ export const GlobalStyle = createGlobalStyle`
 
  // Mobil
   /* @media screen and (max-width: 767px) {
-  } */
+  } 
    //Fonts
-   --font-size-mobile: 16px; /* Размер шрифта для мобильных устройств */
-  --font-size-tablet: 18px; /* Размер шрифта для планшетных устройств */
-  --font-size-desktop: 20px; /* Размер шрифта для десктопных устройств */
+   --font-size-mobile: 16px; 
+  --font-size-tablet: 18px; 
+  --font-size-desktop: 20px; */
 
 }
 

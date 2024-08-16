@@ -38,8 +38,18 @@ export const SpanAbout = styled.p`
   margin-bottom: 30px;
 `;
 
-export const Motivation = styled.p``;
+export const Motivation = styled.p`
+  font-style: italic;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  font-size: 28px;
+`;
 
-export const EducationDescr = styled.p``;
+export const EducationDescr = styled.p`
+  font-size: 25px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.3;
+`;
 
 // background: linear-gradient(45deg, rgba(4, 44, 14, .48) 0%, #a9d4ce 42%, rgba(249, 239, 183, .62) 72%, #fdfcfa 100%) 0 0 / 400%;
