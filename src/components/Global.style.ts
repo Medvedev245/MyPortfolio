@@ -5,8 +5,8 @@ export const GlobalStyle = createGlobalStyle`
 :root {
   // Colors
     --iq-Logo: #149ddd; // Logo
-    --iq-underlining: #afb1b8;
-    --secondary-color: #757575 // Header Letters
+    --iq-underlining: #afb1b8; // Link color
+    --secondary-color: #757575 // motivate Letters
    /*--iq-cross: rgba(88, 5, 143, 1);
    --iq-boxShadow: rgba(136, 85, 187, 1); // boxShadow */ 
 

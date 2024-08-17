@@ -1,12 +1,16 @@
 import styled from 'styled-components';
+
 export const EducationSection = styled.section`
   width: 1200px;
   /* display: flex;
   flex-direction: column;
   align-items: flex-start; */
+  padding: 0 20px;
+  margin-bottom: 80px;
   text-align: start;
   @media screen and (max-width: 1200px) {
     width: 768px;
+    padding: 0 5px;
   }
 
   @media screen and (max-width: 767px) {
@@ -32,7 +36,7 @@ export const FewWords = styled.p`
   }
 `;
 
-export const SpanAbout = styled.p`
+export const SpanAll = styled.p`
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 30px;

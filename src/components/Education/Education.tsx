@@ -3,7 +3,7 @@ import {
   EducationDescr,
   EducationSection,
   FewWords,
-  SpanAbout,
+  SpanAll,
   Motivation,
 } from './Education.styled';
 
@@ -11,7 +11,7 @@ const Education: React.FC = () => {
   return (
     <EducationSection>
       <FewWords>A FEW WORDS ABOUT ME.</FewWords>
-      <SpanAbout>About</SpanAbout>
+      <SpanAll>About</SpanAll>
       <Motivation>
         "Your determination and perseverance define your future. Never give up!"
       </Motivation>
