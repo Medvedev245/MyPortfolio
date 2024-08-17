@@ -40,15 +40,22 @@ const Skills: React.FC = () => {
           <Box>
             <BoxSpan>Soft Skills</BoxSpan>
             <BoxList>
-              <li>HTML</li>
-              <li>CSS</li>
+              <BoxElement>Problem-solving</BoxElement>
+              <BoxElement>Teamwork</BoxElement>
+              <BoxElement>Creativity</BoxElement>
+              <BoxElement>Responsibility</BoxElement>
+              <BoxElement>Communication</BoxElement>
+              <BoxElement>Attention to details</BoxElement>
+              <BoxElement>Time management</BoxElement>
             </BoxList>
           </Box>
           <Box>
             <BoxSpan>Languages</BoxSpan>
             <BoxList>
-              <li>HTML</li>
-              <li>CSS</li>
+              <BoxElement>Advanced </BoxElement>
+              <BoxElement>English - Upper-Intermediate</BoxElement>
+              <BoxElement>Ukrainian - Native</BoxElement>
+              <BoxElement>Russian - Native</BoxElement>
             </BoxList>
           </Box>
         </SkillsBox>
