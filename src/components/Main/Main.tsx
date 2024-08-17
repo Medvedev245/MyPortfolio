@@ -12,8 +12,8 @@ const Main: React.FC = () => {
       <Summary />
       <Education />
       <Skills />
-      <Experience />
       <Projects />
+      <Experience />
     </MainContainer>
   );
 };

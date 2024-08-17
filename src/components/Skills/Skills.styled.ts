@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 
 export const SkillsSection = styled.section`
-  width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
+  width: 100vw;
+
   background-color: #dacbcb;
   text-align: start;
   margin-bottom: 80px;
@@ -13,7 +11,7 @@ export const SkillsSection = styled.section`
   }
 
   @media screen and (max-width: 767px) {
-    /* width: 320px; */
+    /* width: 100%; */
   }
 `;
 
@@ -21,9 +19,9 @@ export const SkillsWrap = styled.div`
   width: 1200px;
   /* height: 70px; */
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   @media screen and (max-width: 1200px) {
-    padding: 0 5px;
+    /* padding: 0 5px; */
     width: 768px;
   }
 
@@ -61,6 +59,8 @@ export const Box = styled.div`
 
 export const BoxSpan = styled.div`
   margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
   @media screen and (max-width: 1200px) {
   }
 
@@ -75,16 +75,17 @@ export const BoxList = styled.ul`
   display: flex;
 
   @media screen and (max-width: 1200px) {
+    width: 700px;
   }
 
   @media screen and (max-width: 767px) {
-    width: 300px;
+    width: 295px;
   }
 `;
 
 export const BoxElement = styled.li`
   text-align: center;
-  background: rgba(255, 255, 255, 0.886);
+  background: rgb(187 194 213 / 89%);
   border-radius: 20px;
   flex-grow: 1;
   padding: 12px;

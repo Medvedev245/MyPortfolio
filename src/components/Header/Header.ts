@@ -30,7 +30,7 @@ export const HeaderContainer = styled.header`
 
 export const NavBar = styled.nav`
   @media screen and (max-width: 1200px) {
-    /* max-width: 768px; */
+    max-width: 768px;
   }
 
   @media screen and (max-width: 767px) {

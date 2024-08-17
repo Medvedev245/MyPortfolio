@@ -23,6 +23,8 @@ const Skills: React.FC = () => {
               <BoxElement>HTML</BoxElement>
               <BoxElement>CSS</BoxElement>
               <BoxElement>JavaScript</BoxElement>
+              <BoxElement>Styled-components</BoxElement>
+              <BoxElement>Tailwind</BoxElement>
               <BoxElement>React.js</BoxElement>
               <BoxElement>Redux.js</BoxElement>
               <BoxElement>REST API</BoxElement>
@@ -52,7 +54,7 @@ const Skills: React.FC = () => {
           <Box>
             <BoxSpan>Languages</BoxSpan>
             <BoxList>
-              <BoxElement>Advanced </BoxElement>
+              <BoxElement>Czech Advanced</BoxElement>
               <BoxElement>English - Upper-Intermediate</BoxElement>
               <BoxElement>Ukrainian - Native</BoxElement>
               <BoxElement>Russian - Native</BoxElement>

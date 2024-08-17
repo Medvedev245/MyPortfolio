@@ -19,32 +19,32 @@ const Header: React.FC = () => {
           <ListNav>
             <li>
               <LinkElement href="#about" title="About me">
-                About
+                Sum
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#education" title="Education">
-                Education
+                About
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#skills" title="Skills">
-                Skills
+                Ski
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#experience" title="Experience">
-                Experience
+                Exper
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#projects" title="Projects">
-                Projects
+                Proj
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#contacts" title="Contacts">
-                Contacts
+                Con
               </LinkElement>
             </li>
           </ListNav>
