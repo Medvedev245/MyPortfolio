@@ -12,7 +12,7 @@ const Main: React.FC = () => {
       <Summary />
       <Education />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Experience />
     </MainContainer>
   );

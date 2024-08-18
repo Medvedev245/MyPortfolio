@@ -40,11 +40,11 @@ const Projects: React.FC = () => {
                 <BoxElement>TypeScript</BoxElement>
               </BoxList>
               <LinksProject>
-                <Links to={'https://www.google.com/'}>
+                <Links to={'#'}>
                   <GithubIcon width={30} height={30} />
                   GitHub
                 </Links>
-                <Links to={'https://www.google.com/'}>
+                <Links to={'#'}>
                   <SiteIcon width={30} height={30} />
                   Live Page
                 </Links>

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const EducationSection = styled.section`
+  padding: 0 20px;
   /* width: 1200px; */
   /* display: flex;
   flex-direction: column;
@@ -15,11 +16,12 @@ export const EducationSection = styled.section`
 
   @media screen and (max-width: 767px) {
     /* width: 320px; */
+    padding: 0 5px;
   }
 `;
 
 export const FewWords = styled.p`
-  margin: 0 0 40px 0; /* Optional: Adjust as needed */
+  margin: 0px 0 40px 0; /* Optional: Adjust as needed */
   padding-left: 115px; /* Add padding to create space for the line */
   position: relative;
   color: blue;

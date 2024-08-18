@@ -71,8 +71,9 @@ export const ListNav = styled.ul`
 `;
 
 export const LinkElement = styled.a`
+  padding: 5px;
   display: flex;
-  height: 70px;
+  height: 50px;
   text-decoration: none;
   color: var(--iq-underlining);
   font-size: var(--font-size-mobile);
@@ -82,6 +83,9 @@ export const LinkElement = styled.a`
   &:hover,
   &:focus {
     color: white;
+  }
+  &:active {
+    color: transparent;
   }
   @media screen and (max-width: 1200px) {
     font-size: 12px;

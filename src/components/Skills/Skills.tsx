@@ -7,15 +7,16 @@ import {
   BoxSpan,
   BoxList,
   BoxElement,
+  SpanSkill,
 } from './Skills.styled';
-import { FewWords, SpanAll } from 'components/Education/Education.styled';
+import { FewWords } from 'components/Education/Education.styled';
 
 const Skills: React.FC = () => {
   return (
     <SkillsSection>
       <SkillsWrap>
         <FewWords>My strengths and abilities.</FewWords>
-        <SpanAll>My skills</SpanAll>
+        <SpanSkill>My skills</SpanSkill>
         <SkillsBox>
           <Box>
             <BoxSpan>Tech Skills</BoxSpan>

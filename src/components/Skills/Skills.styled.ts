@@ -2,10 +2,16 @@ import styled from 'styled-components';
 
 export const SkillsSection = styled.section`
   width: 100vw;
-
-  background-color: #dacbcb;
+  /* padding: 30px 20px; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url('https://img.freepik.com/free-vector/abstract-banner-with-low-poly-plexus-network-communications-design_1048-12914.jpg?t=st=1724011500~exp=1724015100~hmac=7073ba33b8faa8af1133daee031b2118e157e1b87c4ece00542ac650b61aa02d&w=1380');
+  background-color: #2c262617;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: start;
   margin-bottom: 80px;
+
   @media screen and (max-width: 1200px) {
     /* width: 768px; */
   }
@@ -16,10 +22,11 @@ export const SkillsSection = styled.section`
 `;
 
 export const SkillsWrap = styled.div`
+  padding: 30px 20px;
   width: 1200px;
   /* height: 70px; */
   margin: 0 auto;
-  /* padding: 0 20px; */
+  /* padding: 30px 0 30px 0; */
   @media screen and (max-width: 1200px) {
     /* padding: 0 5px; */
     width: 768px;
@@ -28,6 +35,13 @@ export const SkillsWrap = styled.div`
   @media screen and (max-width: 767px) {
     width: 320px;
   }
+`;
+
+export const SpanSkill = styled.p`
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
 `;
 
 export const SkillsBox = styled.div`
@@ -45,7 +59,7 @@ export const SkillsBox = styled.div`
 `;
 
 export const Box = styled.div`
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 20px;
 
   @media screen and (max-width: 1200px) {
@@ -58,6 +72,7 @@ export const Box = styled.div`
 `;
 
 export const BoxSpan = styled.div`
+  color: aliceblue;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 500;
