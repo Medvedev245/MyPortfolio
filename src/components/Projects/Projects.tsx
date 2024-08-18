@@ -8,6 +8,7 @@ import {
   NameProject,
   DescrProject,
   LinksProject,
+  Links,
 } from './Projects.styled';
 import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg';
 import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
@@ -39,14 +40,14 @@ const Projects: React.FC = () => {
                 <BoxElement>TypeScript</BoxElement>
               </BoxList>
               <LinksProject>
-                <a href="">
-                  <GithubIcon width={16} height={16} />
+                <Links to={'https://www.google.com/'}>
+                  <GithubIcon width={30} height={30} />
                   GitHub
-                </a>
-                <a href="">
-                  <SiteIcon width={16} height={16} />
+                </Links>
+                <Links to={'https://www.google.com/'}>
+                  <SiteIcon width={30} height={30} />
                   Live Page
-                </a>
+                </Links>
               </LinksProject>
             </div>
             <img
