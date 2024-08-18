@@ -7,7 +7,10 @@ import {
   ProjectsElement,
   NameProject,
   DescrProject,
+  LinksProject,
 } from './Projects.styled';
+import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg';
+import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
 import { BoxElement, BoxList } from 'components/Skills/Skills.styled';
 
 const Projects: React.FC = () => {
@@ -35,7 +38,16 @@ const Projects: React.FC = () => {
                 <BoxElement>REST API</BoxElement>
                 <BoxElement>TypeScript</BoxElement>
               </BoxList>
-              <div></div>
+              <LinksProject>
+                <a href="">
+                  <GithubIcon width={16} height={16} />
+                  GitHub
+                </a>
+                <a href="">
+                  <SiteIcon width={16} height={16} />
+                  Live Page
+                </a>
+              </LinksProject>
             </div>
             <img
               src="https://plus.unsplash.com/premium_photo-1721769390364-f6029aceeba4?q=80&w=1783&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

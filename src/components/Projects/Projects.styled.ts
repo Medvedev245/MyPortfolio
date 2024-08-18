@@ -73,3 +73,14 @@ export const DescrProject = styled.p`
   @media screen and (max-width: 767px) {
   }
 `;
+
+export const LinksProject = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  @media screen and (max-width: 1200px) {
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+`;
