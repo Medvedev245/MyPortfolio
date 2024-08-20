@@ -54,7 +54,6 @@ export const ProjectsElement = styled.li`
   border-radius: 10px;
   @media screen and (max-width: 1200px) {
     width: 700px;
-    /* padding: 10px; */
     justify-content: space-between;
     align-items: center;
   }
@@ -73,17 +72,14 @@ export const Element = styled.div`
 `;
 
 export const ProjectBoxList = styled.ul`
-  /* width: 400px; */
   flex-wrap: wrap;
   gap: 16px 12px;
   display: flex;
 
   @media screen and (max-width: 1200px) {
-    /* width: 700px; */
   }
 
   @media screen and (max-width: 767px) {
-    /* width: 295px; */
   }
 `;
 
@@ -125,11 +121,6 @@ export const Links = styled(Link)`
   font-size: 24px;
   text-decoration: none;
   padding: 10px;
-
-  /* border: none;
-  outline: none;
-  color: #fff;
-  background: #111; */
   cursor: pointer;
   background: #c5bfcb52;
   position: relative;
@@ -181,7 +172,7 @@ export const Links = styled(Link)`
     position: absolute;
     width: 100%;
     height: 100%;
-    /* background: blueviolet; */
+
     left: 0;
     top: 0;
     border-radius: 10px;
