@@ -14,7 +14,7 @@ import {
 } from './Projects.styled';
 import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg';
 import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
-import { BoxElement, BoxList } from 'components/Skills/Skills.styled';
+import { BoxElement } from 'components/Skills/Skills.styled';
 
 const Projects: React.FC = () => {
   return (
