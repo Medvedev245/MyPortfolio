@@ -9,6 +9,8 @@ import {
   DescrProject,
   LinksProject,
   Links,
+  Element,
+  ProjectBoxList,
 } from './Projects.styled';
 import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg';
 import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
@@ -22,7 +24,7 @@ const Projects: React.FC = () => {
         <SpanAll>Portfolio</SpanAll>
         <ProjectsList>
           <ProjectsElement>
-            <div>
+            <Element>
               <NameProject>Site Name</NameProject>
               <DescrProject>
                 Descr Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -30,7 +32,7 @@ const Projects: React.FC = () => {
                 perferendis sunt quas consequuntur, cumque tempora numquam ex
                 voluptatem nam culpa quaerat quo sequi porro?
               </DescrProject>
-              <BoxList>
+              <ProjectBoxList>
                 <BoxElement>HTML</BoxElement>
                 <BoxElement>CSS</BoxElement>
                 <BoxElement>JavaScript</BoxElement>
@@ -38,7 +40,7 @@ const Projects: React.FC = () => {
                 <BoxElement>Redux.js</BoxElement>
                 <BoxElement>REST API</BoxElement>
                 <BoxElement>TypeScript</BoxElement>
-              </BoxList>
+              </ProjectBoxList>
               <LinksProject>
                 <Links to={'#'}>
                   <GithubIcon width={30} height={30} />
@@ -49,7 +51,7 @@ const Projects: React.FC = () => {
                   Live Page
                 </Links>
               </LinksProject>
-            </div>
+            </Element>
             <img
               src="https://plus.unsplash.com/premium_photo-1721769390364-f6029aceeba4?q=80&w=1783&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="#"

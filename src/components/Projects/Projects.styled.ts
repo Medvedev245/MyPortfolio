@@ -53,9 +53,37 @@ export const ProjectsElement = styled.li`
   background-color: rgba(243, 244, 246, 1);
   border-radius: 10px;
   @media screen and (max-width: 1200px) {
+    width: 700px;
+    /* padding: 10px; */
+    justify-content: space-between;
+    align-items: center;
   }
 
   @media screen and (max-width: 767px) {
+  }
+`;
+
+export const Element = styled.div`
+  @media screen and (max-width: 1200px) {
+    width: 340px;
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+`;
+
+export const ProjectBoxList = styled.ul`
+  /* width: 400px; */
+  flex-wrap: wrap;
+  gap: 16px 12px;
+  display: flex;
+
+  @media screen and (max-width: 1200px) {
+    /* width: 700px; */
+  }
+
+  @media screen and (max-width: 767px) {
+    /* width: 295px; */
   }
 `;
 

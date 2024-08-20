@@ -24,7 +24,7 @@ export const FewWords = styled.p`
   margin: 0px 0 40px 0; /* Optional: Adjust as needed */
   padding-left: 115px; /* Add padding to create space for the line */
   position: relative;
-  color: blue;
+  color: #07289b;
   font-size: 25px;
   &::before {
     content: '';
