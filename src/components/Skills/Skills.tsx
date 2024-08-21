@@ -24,6 +24,8 @@ const Skills: React.FC = () => {
               <BoxElement>HTML</BoxElement>
               <BoxElement>CSS</BoxElement>
               <BoxElement>JavaScript</BoxElement>
+              <BoxElement>Axios</BoxElement>
+              <BoxElement>Material UI</BoxElement>
               <BoxElement>Styled-components</BoxElement>
               <BoxElement>Tailwind</BoxElement>
               <BoxElement>React.js</BoxElement>

@@ -1,5 +1,5 @@
-import { FewWords, SpanAll } from 'components/Education/Education.styled';
 import React from 'react';
+import { FewWords, SpanAll } from 'components/Education/Education.styled';
 import {
   ProjectsSection,
   ProjectsWrap,
@@ -59,15 +59,7 @@ const Projects: React.FC = () => {
               height={300}
             />
           </ProjectsElement>
-          <ProjectsElement>
-            <div>
-              <span>2</span>
-              <p></p>
-              <div></div>
-              <div></div>
-            </div>
-            <img src="#" alt="#" />
-          </ProjectsElement>
+
           <li></li>
           <li></li>
           <li></li>
