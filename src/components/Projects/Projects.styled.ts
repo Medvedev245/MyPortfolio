@@ -1,6 +1,17 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const ImgProject = styled.img`
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  @media screen and (max-width: 1200px) {
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+`;
+
 export const Links = styled(Link)`
   display: flex;
   justify-content: space-evenly;
@@ -86,9 +97,9 @@ export const ProjectsElement = styled.li`
     transform: scale(1.05);
 
     /* Ховер-эффект на ссылки внутри ProjectsElement */
-    ${Links} {
-      background-color: #4d4c5c52;
-      transform: translateY(-6px);
+    ${ImgProject} {
+      transform: rotate(5deg); /* Увеличивает и поднимает изображение */
+      /* background-color: #4d4c5c52; */
     }
   }
 
