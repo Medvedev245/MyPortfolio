@@ -105,6 +105,7 @@ export const BoxElement = styled.li`
   flex-grow: 1;
   padding: 12px;
   list-style: none;
+  font-weight: 500;
   @media screen and (max-width: 1200px) {
   }
 

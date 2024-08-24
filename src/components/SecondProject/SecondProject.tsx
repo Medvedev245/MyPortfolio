@@ -11,37 +11,37 @@ import {
   ContainerElement,
   StyledGithubIcon,
   StyledSiteIcon,
-} from './FirstProject.styled';
+} from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import FirstPhoto from '../../Files/Project-1.jpg';
+import FirstPhoto from '../../Files/Project-2.jpg';
 
 const FirstProject: React.FC = () => {
   return (
     <ProjectsElement>
-      <NameProject>MyMovies</NameProject>
+      <NameProject>Doctor_Tests</NameProject>
       <ContainerElement>
+        <ImgProject src={FirstPhoto} alt="#" />
         <Element>
           <DescrProject>
-            Pet project. Website fors watching movies. Has header, main, footer.
-            The header contains the logo and navigation, the main contains the
-            main content, and the footer contains links to social networks. On
-            the site you can view not only information on the selected film, but
-            also actors and reviews.
+            Aweasome Pet project. Website for taking and studying tests. Has
+            header, main, footer. The header contains the logo and navigation,
+            the main contains the main content, and the footer contains links to
+            social networks. <br></br> To date, the page has been accessed
+            24.300 times, according to Google Search Console !
           </DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
             <BoxElement>CSS</BoxElement>
             <BoxElement>JavaScript</BoxElement>
+            <BoxElement>TypeScript</BoxElement>
             <BoxElement>React.js</BoxElement>
             <BoxElement>Redux.js</BoxElement>
             <BoxElement>React-routes</BoxElement>
             <BoxElement>React Hooks</BoxElement>
-            <BoxElement>REST API</BoxElement>
             <BoxElement>Style components</BoxElement>
             <BoxElement>Material UI</BoxElement>
           </ProjectBoxList>
         </Element>
-        <ImgProject src={FirstPhoto} alt="#" />
       </ContainerElement>
       <LinksProject>
         <Links to={'#'}>
