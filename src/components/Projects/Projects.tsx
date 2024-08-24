@@ -4,19 +4,19 @@ import {
   ProjectsSection,
   ProjectsWrap,
   ProjectsList,
-  ProjectsElement,
-  NameProject,
-  DescrProject,
-  LinksProject,
-  Links,
-  Element,
-  ProjectBoxList,
-  ImgProject,
+  // ProjectsElement,
+  // NameProject,
+  // DescrProject,
+  // LinksProject,
+  // Links,
+  // Element,
+  // ProjectBoxList,
+  // ImgProject,
 } from './Projects.styled';
-import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg';
-import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
-import { BoxElement } from 'components/Skills/Skills.styled';
-import FirstPhoto from '../../Files/Project-1.jpg';
+// import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg';
+// import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
+// import { BoxElement } from 'components/Skills/Skills.styled';
+// import FirstPhoto from '../../Files/Project-1.jpg';
 import FirstProject from 'components/FirstProject/FirstProject';
 
 const Projects: React.FC = () => {
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
         <FewWords>My Projects</FewWords>
         <SpanAll>Portfolio</SpanAll>
         <ProjectsList>
-          <ProjectsElement>
+          {/* <ProjectsElement>
             <Element>
               <NameProject>Site Name</NameProject>
               <DescrProject>
@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
               </LinksProject>
             </Element>
             <ImgProject src={FirstPhoto} alt="#" />
-          </ProjectsElement>
+          </ProjectsElement> */}
           <li>
             <FirstProject />
           </li>
