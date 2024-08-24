@@ -17,6 +17,7 @@ import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg
 import { ReactComponent as SiteIcon } from '../../Files/site-svgrepo-com.svg';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import FirstPhoto from '../../Files/Project-1.jpg';
+import FirstProject from 'components/FirstProject/FirstProject';
 
 const Projects: React.FC = () => {
   return (
@@ -56,7 +57,9 @@ const Projects: React.FC = () => {
             </Element>
             <ImgProject src={FirstPhoto} alt="#" />
           </ProjectsElement>
-          <li></li>
+          <li>
+            <FirstProject />
+          </li>
           <li></li>
           <li></li>
           <li></li>

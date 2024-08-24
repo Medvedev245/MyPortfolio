@@ -1,7 +1,5 @@
-import React from 'react';
-
 const FirstProject: React.FC = () => {
-  return <div>FirstProject</div>;
+  return <>hi</>;
 };
 
 export default FirstProject;
