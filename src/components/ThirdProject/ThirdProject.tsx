@@ -11,32 +11,37 @@ import {
   ContainerElement,
   StyledGithubIcon,
   StyledSiteIcon,
-} from './FirstProject.styled';
+} from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import FirstPhoto from '../../Files/Project-1.jpg';
+import FirstPhoto from '../../Files/Project-3.jpg';
 
 const FirstProject: React.FC = () => {
   return (
     <ProjectsElement>
-      <NameProject>MyMovies</NameProject>
+      <NameProject>TaskPro</NameProject>
       <ContainerElement>
         <Element>
           <DescrProject>
-            Pet project. Website fors watching movies. Has header, main, footer.
-            The header contains the logo and navigation, the main contains the
-            main content, and the footer contains links to social networks. On
-            the site you can view not only information on the selected film, but
-            also actors and reviews.
+            Team project. "TaskPro" web application with user registration.
+            Works with the server database to store tasks. Adaptive layout.
+            Role: developer - FrontEnd.
+            <br></br>
+            "TaskPro" is a user-friendly task board that helps teams organize
+            tasks and track progress effortlessly. Its intuitive design enhances
+            collaboration and productivity, making project management smooth and
+            efficient.
           </DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
             <BoxElement>CSS</BoxElement>
             <BoxElement>JavaScript</BoxElement>
+            <BoxElement>Axios</BoxElement>
+            <BoxElement>Rest API</BoxElement>
+            <BoxElement>Webpack</BoxElement>
             <BoxElement>React.js</BoxElement>
             <BoxElement>Redux.js</BoxElement>
             <BoxElement>React-routes</BoxElement>
             <BoxElement>React Hooks</BoxElement>
-            <BoxElement>REST API</BoxElement>
             <BoxElement>Style components</BoxElement>
             <BoxElement>Material UI</BoxElement>
           </ProjectBoxList>
@@ -45,7 +50,7 @@ const FirstProject: React.FC = () => {
       </ContainerElement>
       <LinksProject>
         <Links
-          to={'https://github.com/Medvedev245/MyMovies'}
+          to={'https://github.com/Oleksii81/project-TeamBoard'}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,7 +58,7 @@ const FirstProject: React.FC = () => {
           GitHub
         </Links>
         <Links
-          to={'https://medvedev245.github.io/MyMovies/'}
+          to={'https://oleksii81.github.io/project-TeamBoard/'}
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -13,14 +13,14 @@ import {
   StyledSiteIcon,
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import FirstPhoto from '../../Files/Project-2.jpg';
+import SecondPhoto from '../../Files/Project-2.jpg';
 
 const FirstProject: React.FC = () => {
   return (
     <ProjectsElement>
       <NameProject>Doctor_Tests</NameProject>
       <ContainerElement>
-        <ImgProject src={FirstPhoto} alt="#" />
+        <ImgProject src={SecondPhoto} alt="#" />
         <Element>
           <DescrProject>
             Aweasome Pet project. Website for taking and studying tests. Has
@@ -44,12 +44,20 @@ const FirstProject: React.FC = () => {
         </Element>
       </ContainerElement>
       <LinksProject>
-        <Links to={'#'}>
-          <StyledGithubIcon width={30} height={30} />
+        <Links
+          to={'https://github.com/Medvedev245/Doctor_Tests'}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <StyledGithubIcon />
           GitHub
         </Links>
-        <Links to={'#'}>
-          <StyledSiteIcon width={30} height={30} />
+        <Links
+          to={'https://medvedev245.github.io/Doctor_Tests/'}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <StyledSiteIcon />
           Live Page
         </Links>
       </LinksProject>

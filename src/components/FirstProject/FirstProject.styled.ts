@@ -4,8 +4,8 @@ import { ReactComponent as GithubIcon } from '../../Files/github-svgrepo-com.svg
 import { ReactComponent as SiteIconSVG } from '../../Files/site-svgrepo-com.svg';
 
 export const ImgProject = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 280px;
   transition: transform 0.3s ease, background-color 0.3s ease;
   @media screen and (max-width: 1200px) {
   }
