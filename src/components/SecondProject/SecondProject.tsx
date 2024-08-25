@@ -18,7 +18,7 @@ import SecondPhoto from '../../Files/Project-2.jpg';
 const FirstProject: React.FC = () => {
   return (
     <ProjectsElement>
-      <NameProject>Doctor_Tests</NameProject>
+      <NameProject>2. Doctor_Tests</NameProject>
       <ContainerElement>
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>

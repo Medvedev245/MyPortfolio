@@ -5,7 +5,7 @@ import FirstProject from 'components/FirstProject/FirstProject';
 import SecondProject from 'components/SecondProject/SecondProject';
 import ThirdProject from 'components/ThirdProject/ThirdProject';
 import FourthProject from 'components/FourthProject/FourthProject';
-import SixthProject from 'components/SixthProject/SixthProject';
+import FifthProject from 'components/FifthProject/FifthProject';
 
 const Projects: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
           <SecondProject />
           <ThirdProject />
           <FourthProject />
-          <SixthProject />
+          <FifthProject />
           <li></li>
         </ProjectsList>
       </ProjectsWrap>

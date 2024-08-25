@@ -18,7 +18,7 @@ import FirstPhoto from '../../Files/Project-1.jpg';
 const FirstProject: React.FC = () => {
   return (
     <ProjectsElement>
-      <NameProject>MyMovies</NameProject>
+      <NameProject>1. MyMovies</NameProject>
       <ContainerElement>
         <Element>
           <DescrProject>

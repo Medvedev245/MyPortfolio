@@ -13,20 +13,19 @@ import {
   StyledSiteIcon,
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import SecondPhoto from '../../Files/Project-4.jpg';
+import SecondPhoto from '../../Files/Project-5.jpg';
 
-const SixthProject: React.FC = () => {
+const FifthProject: React.FC = () => {
   return (
     <ProjectsElement>
-      <NameProject>Je le ferai</NameProject>
+      <NameProject>5. Tasty-Treats</NameProject>
       <ContainerElement>
-        <ImgProject src={SecondPhoto} alt="#" />
         <Element>
           <DescrProject>
-            A team project built with pure (vanilla) HTML and CSS, with minimal
-            use of JavaScript. <br></br>Indulge in the finest handcrafted
-            chocolates and have a variety of exquisite flavors delivered right
-            to your door.
+            Team project. Welcome to TastyTreats, your go-to online culinary
+            haven! Discover a world of delicious recipes from around the globe,
+            where you can explore, create, and connect with fellow food
+            enthusiasts !
           </DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
@@ -34,12 +33,15 @@ const SixthProject: React.FC = () => {
             <BoxElement>JavaScript</BoxElement>
             <BoxElement>Eslint</BoxElement>
             <BoxElement>Npm-package</BoxElement>
+            <BoxElement>vite</BoxElement>
+            <BoxElement>Rest API</BoxElement>
           </ProjectBoxList>
         </Element>
+        <ImgProject src={SecondPhoto} alt="#" />
       </ContainerElement>
       <LinksProject>
         <Links
-          to={'https://github.com/Irulik/group-project-13-je-le-ferai'}
+          to={'https://github.com/Sergii-Drozdiuk/Tasty-Treats'}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -47,7 +49,7 @@ const SixthProject: React.FC = () => {
           GitHub
         </Links>
         <Links
-          to={'https://irulik.github.io/group-project-13-je-le-ferai/'}
+          to={'https://sergii-drozdiuk.github.io/Tasty-Treats/'}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -59,4 +61,4 @@ const SixthProject: React.FC = () => {
   );
 };
 
-export default SixthProject;
+export default FifthProject;
