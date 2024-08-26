@@ -13,7 +13,7 @@ import {
   StyledSiteIcon,
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import SecondPhoto from '../../Files/Project-5.jpg';
+import SecondPhoto from '../../Files/Project-6.jpg';
 
 const SixthProject: React.FC = () => {
   return (
