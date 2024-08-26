@@ -23,10 +23,10 @@ const SixthProject: React.FC = () => {
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
           <DescrProject>
-            Team project. Welcome to TastyTreats, your go-to online culinary
-            haven! Discover a world of delicious recipes from around the globe,
-            where you can explore, create, and connect with fellow food
-            enthusiasts !
+            Pet project: a website for browsing and searching images based on a
+            given theme. The site features API integration and pagination,
+            offering a beautiful, lightweight, and elegant project for my
+            portfolio.!
           </DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
@@ -37,12 +37,14 @@ const SixthProject: React.FC = () => {
             <BoxElement>React</BoxElement>
             <BoxElement>Style-components</BoxElement>
             <BoxElement>Rest API</BoxElement>
+            <BoxElement>Yup</BoxElement>
+            <BoxElement>Formik</BoxElement>
           </ProjectBoxList>
         </Element>
       </ContainerElement>
       <LinksProject>
         <Links
-          to={'https://github.com/Sergii-Drozdiuk/Tasty-Treats'}
+          to={'https://github.com/Medvedev245/images-04'}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -50,7 +52,7 @@ const SixthProject: React.FC = () => {
           GitHub
         </Links>
         <Links
-          to={'https://sergii-drozdiuk.github.io/Tasty-Treats/'}
+          to={'https://medvedev245.github.io/images-04/'}
           target="_blank"
           rel="noopener noreferrer"
         >
