@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.7cda0caf.css",
-    "main.js": "/MyPortfolio/static/js/main.35ad7715.js",
+    "main.js": "/MyPortfolio/static/js/main.e791bbf5.js",
     "static/media/me.jpg": "/MyPortfolio/static/media/me.8d00ac90f8dc0cca1917.jpg",
+    "static/media/Project-6.jpg": "/MyPortfolio/static/media/Project-6.c53d301ef7316a5058d8.jpg",
+    "static/media/Project-4.jpg": "/MyPortfolio/static/media/Project-4.5fb4bc2929bb7a8fc3b4.jpg",
     "static/media/Project-1.jpg": "/MyPortfolio/static/media/Project-1.691b4071562f601daab0.jpg",
+    "static/media/Project-3.jpg": "/MyPortfolio/static/media/Project-3.94ef919d7c324ce18f40.jpg",
+    "static/media/Project-2.jpg": "/MyPortfolio/static/media/Project-2.99ee0ea2ea4859d25b8e.jpg",
+    "static/media/Project-5.jpg": "/MyPortfolio/static/media/Project-5.d2ec7690ba0edbe41800.jpg",
+    "static/media/Project-7.jpg": "/MyPortfolio/static/media/Project-7.2ac421794247e974af0d.jpg",
     "static/media/site-svgrepo-com.svg": "/MyPortfolio/static/media/site-svgrepo-com.143b63118a2234d45afc116ea734dbb0.svg",
     "static/media/github-svgrepo-com.svg": "/MyPortfolio/static/media/github-svgrepo-com.5f60dd8d38c238b3b3188f015d4bd7d1.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.7cda0caf.css.map": "/MyPortfolio/static/css/main.7cda0caf.css.map",
-    "main.35ad7715.js.map": "/MyPortfolio/static/js/main.35ad7715.js.map"
+    "main.e791bbf5.js.map": "/MyPortfolio/static/js/main.e791bbf5.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.35ad7715.js"
+    "static/js/main.e791bbf5.js"
   ]
 }
