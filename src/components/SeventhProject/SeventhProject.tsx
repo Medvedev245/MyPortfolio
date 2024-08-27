@@ -13,7 +13,7 @@ import {
   StyledSiteIcon,
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import FirstPhoto from '../../Files/Project-1.jpg';
+import FirstPhoto from '../../Files/Project-7.jpg';
 
 const SeventhProject: React.FC = () => {
   return (
@@ -22,11 +22,9 @@ const SeventhProject: React.FC = () => {
       <ContainerElement>
         <Element>
           <DescrProject>
-            Pet project. Website fors watching movies. Has header, main, footer.
-            The header contains the logo and navigation, the main contains the
-            main content, and the footer contains links to social networks. On
-            the site you can view not only information on the selected film, but
-            also actors and reviews.
+            Pet project. A phonebook for recording phone numbers with options to
+            create and edit entries. It also includes a search feature. The
+            project is built with React using hooks.
           </DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
@@ -34,18 +32,20 @@ const SeventhProject: React.FC = () => {
             <BoxElement>JavaScript</BoxElement>
             <BoxElement>React.js</BoxElement>
             <BoxElement>Redux.js</BoxElement>
-            <BoxElement>React-routes</BoxElement>
             <BoxElement>React Hooks</BoxElement>
-            <BoxElement>REST API</BoxElement>
             <BoxElement>Style components</BoxElement>
             <BoxElement>Material UI</BoxElement>
+            <BoxElement>axios</BoxElement>
+            <BoxElement>formik</BoxElement>
+            <BoxElement>Yup</BoxElement>
+            <BoxElement>notiflix</BoxElement>
           </ProjectBoxList>
         </Element>
         <ImgProject src={FirstPhoto} alt="#" />
       </ContainerElement>
       <LinksProject>
         <Links
-          to={'https://github.com/Medvedev245/MyMovies'}
+          to={'https://github.com/Medvedev245/MyPhoneBook/tree/main'}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,7 +53,7 @@ const SeventhProject: React.FC = () => {
           GitHub
         </Links>
         <Links
-          to={'https://medvedev245.github.io/MyMovies/'}
+          to={'https://medvedev245.github.io/MyPhoneBook/'}
           target="_blank"
           rel="noopener noreferrer"
         >
