@@ -7,6 +7,7 @@ import ThirdProject from 'components/ThirdProject/ThirdProject';
 import FourthProject from 'components/FourthProject/FourthProject';
 import FifthProject from 'components/FifthProject/FifthProject';
 import SixthProject from 'components/SixthProject/SixthProject';
+import SeventhProject from 'components/SeventhProject/SeventhProject';
 
 const Projects: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const Projects: React.FC = () => {
           <FourthProject />
           <FifthProject />
           <SixthProject />
+          <SeventhProject />
         </ProjectsList>
       </ProjectsWrap>
     </ProjectsSection>
