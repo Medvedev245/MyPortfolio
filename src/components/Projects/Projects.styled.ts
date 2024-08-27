@@ -1,42 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-
-// export const ImgProject = styled.img`
-//   width: 300px;
-//   height: 300px;
-//   transition: transform 0.3s ease, background-color 0.3s ease;
-//   @media screen and (max-width: 1200px) {
-//   }
-
-//   @media screen and (max-width: 767px) {
-//   }
-// `;
-
-// export const Links = styled(Link)`
-//   display: flex;
-//   justify-content: space-evenly;
-//   align-items: center;
-//   gap: 10px;
-//   font-size: 24px;
-//   text-decoration: none;
-//   padding: 10px;
-//   cursor: pointer;
-//   background: #c5bfcb52;
-//   border-radius: 10px;
-//   transition: transform 0.3s ease, background-color 0.3s ease;
-
-//   &:hover,
-//   &:focus {
-//     background-color: #4b168052;
-//     transform: translateY(-3px);
-//   }
-
-//   @media screen and (max-width: 1200px) {
-//   }
-
-//   @media screen and (max-width: 767px) {
-//   }
-// `;
 
 export const ProjectsSection = styled.section`
   width: 100vw;
