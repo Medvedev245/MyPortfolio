@@ -13,12 +13,12 @@ import {
   StyledSiteIcon,
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
-import SecondPhoto from '../../Files/Project-6.jpg';
+import SecondPhoto from '../../Files/Project-8.jpg';
 
 const EighthProject: React.FC = () => {
   return (
     <ProjectsElement>
-      <NameProject>6. Image Finder</NameProject>
+      <NameProject>8. MyPortfolio</NameProject>
       <ContainerElement>
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
@@ -36,9 +36,7 @@ const EighthProject: React.FC = () => {
             <BoxElement>Npm-package</BoxElement>
             <BoxElement>React</BoxElement>
             <BoxElement>Style-components</BoxElement>
-            <BoxElement>Rest API</BoxElement>
-            <BoxElement>Yup</BoxElement>
-            <BoxElement>Formik</BoxElement>
+            <BoxElement>TypeScript</BoxElement>
           </ProjectBoxList>
         </Element>
       </ContainerElement>
