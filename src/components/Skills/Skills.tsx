@@ -24,14 +24,14 @@ const Skills: React.FC = () => {
               <BoxElement>HTML</BoxElement>
               <BoxElement>CSS</BoxElement>
               <BoxElement>JavaScript</BoxElement>
+              <BoxElement>TypeScript</BoxElement>
+              <BoxElement>REST API</BoxElement>
               <BoxElement>Axios</BoxElement>
-              <BoxElement>Material UI</BoxElement>
               <BoxElement>Styled-components</BoxElement>
               <BoxElement>Tailwind</BoxElement>
+              <BoxElement>Material UI</BoxElement>
               <BoxElement>React.js</BoxElement>
               <BoxElement>Redux.js</BoxElement>
-              <BoxElement>REST API</BoxElement>
-              <BoxElement>TypeScript</BoxElement>
               <BoxElement>Figma</BoxElement>
               <BoxElement>Bootstrap</BoxElement>
               <BoxElement>Mobile-First strategy</BoxElement>
@@ -52,6 +52,7 @@ const Skills: React.FC = () => {
               <BoxElement>Communication</BoxElement>
               <BoxElement>Attention to details</BoxElement>
               <BoxElement>Time management</BoxElement>
+              <BoxElement>Agile/Scrum methodologies</BoxElement>
             </BoxList>
           </Box>
           <Box>

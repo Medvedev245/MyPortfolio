@@ -23,10 +23,9 @@ const EighthProject: React.FC = () => {
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
           <DescrProject>
-            Pet project: a website for browsing and searching images based on a
-            given theme. The site features API integration and pagination,
-            offering a beautiful, lightweight, and elegant project for my
-            portfolio.!
+            Pet project: "MyPortfolio" website detailing my work experience,
+            completed courses, and all my projects with links to GitHub and live
+            pages.
           </DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
@@ -42,7 +41,7 @@ const EighthProject: React.FC = () => {
       </ContainerElement>
       <LinksProject>
         <Links
-          to={'https://github.com/Medvedev245/images-04'}
+          to={'https://github.com/Medvedev245/MyPortfolio'}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -50,7 +49,7 @@ const EighthProject: React.FC = () => {
           GitHub
         </Links>
         <Links
-          to={'https://medvedev245.github.io/images-04/'}
+          to={'https://medvedev245.github.io/MyPortfolio/'}
           target="_blank"
           rel="noopener noreferrer"
         >

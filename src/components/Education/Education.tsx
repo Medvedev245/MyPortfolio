@@ -25,8 +25,8 @@ const Education: React.FC = () => {
         began as a hobby quickly became a passion and guided my decision on my
         future tech stack. I then completed a year-long Full-Stack Developer
         course from January 20, 2023, to February 14, 2024, and will receive a
-        certificate. I currently have 6 projects in my portfolio, including both
-        team-based and individual projects.
+        certificate. At the moment, I have more than a year of practice and have
+        8 projects in my portfolio, both team and individual.
       </EducationDescr>
     </EducationSection>
   );

@@ -23,7 +23,7 @@ const About: React.FC = () => {
             <AboutDesc>Full-stack developer</AboutDesc>
             <Text>
               Experienced IT professional with a strong background in analytical
-              problem- solving. Front-End developer with knowledge of HTML, CSS,
+              problem-solving. Full-stack developer with knowledge of HTML, CSS,
               JavaScript, React and Node.js. All projects were completed using
               the Agile/Scrum methodology and strict adherence to deadlines.
               Excellent interpersonal skills and a proactive approach to
