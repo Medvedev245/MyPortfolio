@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const SkillsSection = styled.section`
-  width: 100vw;
-  /* padding: 30px 20px; */
+  width: 100%;
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url('https://img.freepik.com/free-vector/abstract-banner-with-low-poly-plexus-network-communications-design_1048-12914.jpg?t=st=1724011500~exp=1724015100~hmac=7073ba33b8faa8af1133daee031b2118e157e1b87c4ece00542ac650b61aa02d&w=1380');
   background-color: #2c262617;
@@ -11,6 +11,7 @@ export const SkillsSection = styled.section`
   background-position: center;
   text-align: start;
   margin-bottom: 80px;
+  overflow-x: hidden;
 
   @media screen and (max-width: 1200px) {
     /* width: 768px; */
