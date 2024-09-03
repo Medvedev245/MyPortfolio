@@ -75,6 +75,9 @@ export const EducationDescr = styled.p`
   font-weight: 500;
   text-align: justify;
   line-height: 1.3;
+  @media screen and (max-width: 1200px) {
+    font-size: 20px;
+  }
 `;
 
 // background: linear-gradient(45deg, rgba(4, 44, 14, .48) 0%, #a9d4ce 42%, rgba(249, 239, 183, .62) 72%, #fdfcfa 100%) 0 0 / 400%;

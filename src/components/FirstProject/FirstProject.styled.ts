@@ -23,7 +23,7 @@ export const ProjectsElement = styled.li`
 
   view-timeline-name: --reveal;
   animation-timeline: --reveal;
-  animation-range: entry 25% cover 50%;
+  animation-range: entry 5% cover 30%;
 
   @keyframes show {
     from {
