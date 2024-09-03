@@ -8,10 +8,18 @@ import { MainContainer } from './Main.styled';
 const Main: React.FC = () => {
   return (
     <MainContainer>
-      <Summary />
-      <Education />
-      <Skills />
-      <Projects />
+      <div id="summary">
+        <Summary />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
     </MainContainer>
   );
 };

@@ -19,7 +19,7 @@ const Header: React.FC = () => {
           <ListNav>
             <li>
               <LinkElement href="#about" title="About me">
-                Sum
+                Summary
               </LinkElement>
             </li>
             <li>
@@ -29,22 +29,18 @@ const Header: React.FC = () => {
             </li>
             <li>
               <LinkElement href="#skills" title="Skills">
-                Ski
+                Skills
               </LinkElement>
             </li>
-            <li>
-              <LinkElement href="#experience" title="Experience">
-                Exper
-              </LinkElement>
-            </li>
+
             <li>
               <LinkElement href="#projects" title="Projects">
-                Proj
+                Projects
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#contacts" title="Contacts">
-                Con
+                Contacts
               </LinkElement>
             </li>
           </ListNav>

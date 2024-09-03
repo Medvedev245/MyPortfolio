@@ -31,11 +31,12 @@ const EighthProject: React.FC = () => {
             <BoxElement>HTML 5</BoxElement>
             <BoxElement>CSS 3</BoxElement>
             <BoxElement>JavaScript</BoxElement>
+            <BoxElement>TypeScript</BoxElement>
             <BoxElement>Eslint</BoxElement>
             <BoxElement>Npm-package</BoxElement>
             <BoxElement>React</BoxElement>
             <BoxElement>Style-components</BoxElement>
-            <BoxElement>TypeScript</BoxElement>
+            <BoxElement>React-scroll</BoxElement>
           </ProjectBoxList>
         </Element>
       </ContainerElement>

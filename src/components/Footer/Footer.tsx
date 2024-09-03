@@ -4,7 +4,7 @@ import { ProjectsFooter, FooterWrap, FooterAdress, FooterLink } from './Footer';
 
 const Footer: React.FC = () => {
   return (
-    <ProjectsFooter>
+    <ProjectsFooter id="contacts">
       <FooterWrap>
         <FewWords>Connect with Us</FewWords>
         <SpanAll>Contacts</SpanAll>
