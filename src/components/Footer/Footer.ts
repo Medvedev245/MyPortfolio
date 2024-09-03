@@ -30,6 +30,7 @@ export const FooterAdress = styled.address`
   }
 
   @media screen and (max-width: 767px) {
+    flex-direction: column;
     /* width: 320px; */
   }
 `;
@@ -46,6 +47,7 @@ export const FooterLink = styled.a`
   }
 
   @media screen and (max-width: 767px) {
+    font-size: 16px;
     /* width: 320px; */
   }
 `;
