@@ -1,14 +1,9 @@
 import styled from 'styled-components';
 
 export const EducationSection = styled.section`
-  padding: 0 20px;
-  /* width: 1200px; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
-  /* padding: 0 20px; */
+  width: 100%;
   margin-bottom: 80px;
-  text-align: start;
+  /* text-align: start; */
   @media screen and (max-width: 1200px) {
     /* width: 768px;
     padding: 0 5px; */
@@ -16,6 +11,27 @@ export const EducationSection = styled.section`
 
   @media screen and (max-width: 767px) {
     /* width: 320px; */
+    /* padding: 0 5px; */
+  }
+`;
+
+export const EducationWrap = styled.div`
+  padding: 0 20px;
+  width: 1200px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  /* padding: 0 20px; */
+  margin-bottom: 80px;
+  text-align: start;
+  @media screen and (max-width: 1200px) {
+    width: 768px;
+    padding: 0 5px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 320px;
     padding: 0 5px;
   }
 `;

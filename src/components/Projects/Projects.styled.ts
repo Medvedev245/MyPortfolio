@@ -15,11 +15,8 @@ export const ProjectsSection = styled.section`
 
 export const ProjectsWrap = styled.div`
   width: 1200px;
-  /* height: 70px; */
   margin: 0 auto;
-  /* padding: 0 20px; */
   @media screen and (max-width: 1200px) {
-    /* padding: 0 5px; */
     width: 768px;
   }
 
