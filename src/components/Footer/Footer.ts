@@ -26,10 +26,10 @@ export const FooterAdress = styled.address`
   justify-content: space-evenly;
   @media screen and (max-width: 1200px) {
     /* width: 768px; */
+    gap: 40px 40px;
   }
 
   @media screen and (max-width: 767px) {
-    gap: 40px 40px;
     /* width: 320px; */
   }
 `;

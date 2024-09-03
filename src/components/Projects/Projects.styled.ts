@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsSection = styled.section`
-  width: 100vw;
+  /* width: 100vw; */
   text-align: start;
   margin-bottom: 80px;
   @media screen and (max-width: 1200px) {

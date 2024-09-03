@@ -7,6 +7,7 @@ export const ImgProject = styled.img`
   width: 320px;
   height: 280px;
   transition: transform 0.3s ease, background-color 0.3s ease;
+
   @media screen and (max-width: 1200px) {
   }
 
@@ -16,11 +17,29 @@ export const ImgProject = styled.img`
 `;
 
 export const ProjectsElement = styled.li`
-  /* display: flex; */
+  object-fit: cover;
+  animation-name: show;
+  animation-fill-mode: both;
+
+  view-timeline-name: --reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 25% cover 50%;
+
+  @keyframes show {
+    from {
+      opacity: 0;
+      transform: scale(0.1); /* Используем transform для масштаба */
+    }
+    to {
+      opacity: 1;
+      transform: scale(1); /* Используем transform для масштаба */
+    }
+  }
+
   padding: 20px;
   width: 768px;
   flex-direction: column;
-  /* gap: 20px; */
+
   text-align: justify;
   background-color: rgba(243, 244, 246, 1);
   border-radius: 10px;

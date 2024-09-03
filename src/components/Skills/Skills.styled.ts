@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SkillsSection = styled.section`
-  width: 100%;
+  width: 100vw;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url('https://img.freepik.com/free-vector/abstract-banner-with-low-poly-plexus-network-communications-design_1048-12914.jpg?t=st=1724011500~exp=1724015100~hmac=7073ba33b8faa8af1133daee031b2118e157e1b87c4ece00542ac650b61aa02d&w=1380');
