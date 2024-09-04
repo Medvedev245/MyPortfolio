@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
       <ProjectsWrap>
         <FewWords>My Projects</FewWords>
         <SpanAll>Portfolio</SpanAll>
-        {/* <ProjectsList>
+        <ProjectsList>
           <FirstProject />
           <SecondProject />
           <ThirdProject />
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
           <SixthProject />
           <SeventhProject />
           <EighthProject />
-        </ProjectsList> */}
+        </ProjectsList>
       </ProjectsWrap>
     </ProjectsSection>
   );
