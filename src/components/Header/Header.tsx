@@ -5,8 +5,8 @@ import {
   ListNav,
   LogoLink,
   LinkElement,
-  // ListLeng,
-  // ContainerLeng,
+  ListLeng,
+  ContainerLeng,
   NavBar,
 } from './Header';
 
@@ -45,19 +45,19 @@ const Header: React.FC = () => {
             </li>
           </ListNav>
         </NavBar>
-        {/* <ContainerLeng>
+        <ContainerLeng>
           <ListLeng>
             <li>cz</li>
             <li>en</li>
             <li>ua</li>
           </ListLeng>
-        </ContainerLeng> */}
-        {/* <div>
+        </ContainerLeng>
+        <div>
           <ul>
             <li>black</li>
             <li>white</li>
           </ul>
-        </div> */}
+        </div>
       </HeaderContainer>
     </HeaderWrap>
   );

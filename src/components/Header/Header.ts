@@ -105,7 +105,7 @@ export const ListLeng = styled.ul`
 
 export const ContainerLeng = styled.div`
   @media screen and (max-width: 1200px) {
-    display: none;
+    /* display: none; */
   }
 
   @media screen and (max-width: 767px) {
