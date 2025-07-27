@@ -5,10 +5,11 @@ import {
   ListNav,
   LogoLink,
   LinkElement,
-  ListLeng,
-  ContainerLeng,
+  // ListLeng,
+  // ContainerLeng,
   NavBar,
 } from './Header';
+import CustomizedSwitches from '../Theme/Theme.tsx';
 
 const Header: React.FC = () => {
   return (
@@ -45,7 +46,7 @@ const Header: React.FC = () => {
             </li>
           </ListNav>
         </NavBar>
-        <ContainerLeng>
+        {/* <ContainerLeng>
           <ListLeng>
             <li>cz</li>
             <li>en</li>
@@ -57,7 +58,8 @@ const Header: React.FC = () => {
             <li>black</li>
             <li>white</li>
           </ul>
-        </div>
+        </div> */}
+        <CustomizedSwitches />
       </HeaderContainer>
     </HeaderWrap>
   );
