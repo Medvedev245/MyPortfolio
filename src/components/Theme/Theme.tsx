@@ -65,7 +65,7 @@ const CustomizedSwitches: React.FC = () => {
     <FormGroup>
       <FormControlLabel
         control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
-        label="MUI switch"
+        label=""
       />
     </FormGroup>
   );

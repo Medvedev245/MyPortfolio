@@ -9,7 +9,8 @@ import {
   // ContainerLeng,
   NavBar,
 } from './Header';
-import CustomizedSwitches from '../Theme/Theme.tsx';
+import CustomizedSwitches from 'components/Theme/Theme';
+import SelectTextFields from 'components/Language/Language';
 
 const Header: React.FC = () => {
   return (
@@ -46,6 +47,7 @@ const Header: React.FC = () => {
             </li>
           </ListNav>
         </NavBar>
+        <SelectTextFields />
         {/* <ContainerLeng>
           <ListLeng>
             <li>cz</li>

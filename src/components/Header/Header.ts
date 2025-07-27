@@ -97,17 +97,17 @@ export const LinkElement = styled.a`
   }
 `;
 
-export const ListLeng = styled.ul`
-  display: flex;
-  gap: 15px;
-  list-style: none;
-`;
+// export const ListLeng = styled.ul`
+//   display: flex;
+//   gap: 15px;
+//   list-style: none;
+// `;
 
-export const ContainerLeng = styled.div`
-  @media screen and (max-width: 1200px) {
-    /* display: none; */
-  }
+// export const ContainerLeng = styled.div`
+//   @media screen and (max-width: 1200px) {
+//     /* display: none; */
+//   }
 
-  @media screen and (max-width: 767px) {
-  }
-`;
+//   @media screen and (max-width: 767px) {
+//   }
+// `;
