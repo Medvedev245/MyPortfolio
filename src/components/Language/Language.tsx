@@ -6,10 +6,10 @@ import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 const SelectTextFields: React.FC = () => {
-  const [age, setAge] = React.useState('English');
+  const [Language, setLanguage] = React.useState('English');
 
   const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value as string);
+    setLanguage(event.target.value as string);
   };
 
   return (
@@ -30,7 +30,7 @@ const SelectTextFields: React.FC = () => {
           }}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value={age}
+          value={Language}
           label="Language"
           onChange={handleChange}
           sx={{

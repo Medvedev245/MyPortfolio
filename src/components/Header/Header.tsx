@@ -48,19 +48,7 @@ const Header: React.FC = () => {
           </ListNav>
         </NavBar>
         <SelectTextFields />
-        {/* <ContainerLeng>
-          <ListLeng>
-            <li>cz</li>
-            <li>en</li>
-            <li>ua</li>
-          </ListLeng>
-        </ContainerLeng>
-        <div>
-          <ul>
-            <li>black</li>
-            <li>white</li>
-          </ul>
-        </div> */}
+
         <CustomizedSwitches />
       </HeaderContainer>
     </HeaderWrap>
