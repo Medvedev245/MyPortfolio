@@ -21,9 +21,9 @@ export const ProjectsElement = styled.li`
   animation-name: show;
   animation-fill-mode: both;
 
-  view-timeline-name: --reveal;
+  /* view-timeline-name: --reveal;
   animation-timeline: --reveal;
-  animation-range: entry 5% cover 30%;
+  animation-range: entry 5% cover 30%; */
 
   @keyframes show {
     from {

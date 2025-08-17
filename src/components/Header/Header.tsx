@@ -5,8 +5,6 @@ import {
   ListNav,
   LogoLink,
   LinkElement,
-  // ListLeng,
-  // ContainerLeng,
   NavBar,
 } from './Header';
 import CustomizedSwitches from 'components/Theme/Theme';

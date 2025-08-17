@@ -14,7 +14,6 @@ const About: React.FC = () => {
   return (
     <AboutSection>
       <AboutWrap>
-        {/* <AboutText>About</AboutText> */}
         <PhotoWrap>
           <Img src={MyPhoto} alt="MyPhoto" />
 

@@ -94,21 +94,6 @@ export const Img = styled.img`
 `;
 
 export const Descr = styled.div`
-  /* height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
   @media screen and (max-width: 1200px) {
-    /* font-size: 20px; */
   }
 `;
-
-// export const AboutSection = styled.section``;
-
-// export const AboutSection = styled.section``;
-
-// export const AboutSection = styled.section``;
-
-// export const AboutSection = styled.section``;
-
-// export const AboutSection = styled.section``;

@@ -25,13 +25,11 @@ export const FooterAdress = styled.address`
   flex-wrap: wrap;
   justify-content: space-evenly;
   @media screen and (max-width: 1200px) {
-    /* width: 768px; */
     gap: 40px 40px;
   }
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
-    /* width: 320px; */
   }
 `;
 
@@ -43,11 +41,9 @@ export const FooterLink = styled.a`
   font-size: 24px;
   color: var(--iq-Logo);
   @media screen and (max-width: 1200px) {
-    /* width: 768px; */
   }
 
   @media screen and (max-width: 767px) {
     font-size: 16px;
-    /* width: 320px; */
   }
 `;
