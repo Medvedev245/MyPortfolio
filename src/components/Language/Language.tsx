@@ -4,16 +4,26 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { useTranslation } from 'react-i18next';
 
 const SelectTextFields: React.FC = () => {
-  const [Language, setLanguage] = React.useState('English');
+  const { t, i18n } = useTranslation();
+  const [language, setLanguage] = React.useState(i18n.language || 'en');
+
+  // const handleChange = (event: SelectChangeEvent) => {
+  //   setLanguage(event.target.value as string);
+  // };
 
   const handleChange = (event: SelectChangeEvent) => {
-    setLanguage(event.target.value as string);
+    const newLang = event.target.value as string;
+    // console.log(newLang);
+    setLanguage(newLang);
+    i18n.changeLanguage(newLang); // сразу переключаем язык
   };
 
   return (
     <Box sx={{ minWidth: 120 }}>
+      <div>{t('summary')}</div>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label" sx={{ fontSize: '1.1rem' }}>
           Language
@@ -30,16 +40,16 @@ const SelectTextFields: React.FC = () => {
           }}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value={Language}
+          value={language}
           label="Language"
           onChange={handleChange}
           sx={{
             fontSize: '1.1rem', // увеличивает размер выбранного текста
           }}
         >
-          <MenuItem value={'English'}>English</MenuItem>
-          <MenuItem value={'Čeština'}>Čeština</MenuItem>
-          <MenuItem value={'Ukrainian'}>Ukrainian</MenuItem>
+          <MenuItem value="en">English</MenuItem>
+          <MenuItem value="cs">Čeština</MenuItem>
+          <MenuItem value="uk">Українська</MenuItem>
         </Select>
       </FormControl>
     </Box>

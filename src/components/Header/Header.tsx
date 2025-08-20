@@ -9,8 +9,15 @@ import {
 } from './Header';
 import CustomizedSwitches from 'components/Theme/Theme';
 import SelectTextFields from 'components/Language/Language';
+// import { useTranslation } from 'react-i18next';
 
 const Header: React.FC = () => {
+  // const {t, i18n } = useTranslation()
+
+  // const changeLanguage = (language) => {
+  //   i18n.changeLanguage(language).
+  // };
+
   return (
     <HeaderWrap>
       <HeaderContainer>
