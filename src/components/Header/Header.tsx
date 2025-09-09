@@ -9,10 +9,10 @@ import {
 } from './Header';
 import CustomizedSwitches from 'components/Theme/Theme';
 import SelectTextFields from 'components/Language/Language';
-// import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const Header: React.FC = () => {
-  // const {t, i18n } = useTranslation()
+  const { t } = useTranslation();
 
   // const changeLanguage = (language) => {
   //   i18n.changeLanguage(language).
@@ -26,28 +26,28 @@ const Header: React.FC = () => {
           <ListNav>
             <li>
               <LinkElement href="#about" title="About me">
-                Summary
+                {t('summary')}
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#education" title="Education">
-                About
+                {t('about')}
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#skills" title="Skills">
-                Skills
+                {t('skills')}
               </LinkElement>
             </li>
 
             <li>
               <LinkElement href="#projects" title="Projects">
-                Projects
+                {t('projects')}
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#contacts" title="Contacts">
-                Contacts
+                {t('contacts')}
               </LinkElement>
             </li>
           </ListNav>
