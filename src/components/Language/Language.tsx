@@ -7,7 +7,7 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { useTranslation } from 'react-i18next';
 
 const SelectTextFields: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [language, setLanguage] = React.useState(i18n.language || 'en');
 
   const handleChange = (event: SelectChangeEvent) => {
@@ -19,7 +19,6 @@ const SelectTextFields: React.FC = () => {
 
   return (
     <Box sx={{ minWidth: 120 }}>
-      <div>{t('summary')}</div>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label" sx={{ fontSize: '1.1rem' }}>
           Language
@@ -46,6 +45,7 @@ const SelectTextFields: React.FC = () => {
           <MenuItem value="en">English</MenuItem>
           <MenuItem value="cs">Čeština</MenuItem>
           <MenuItem value="uk">Українська</MenuItem>
+          <MenuItem value="ru">Русский</MenuItem>
         </Select>
       </FormControl>
     </Box>
@@ -53,42 +53,3 @@ const SelectTextFields: React.FC = () => {
 };
 
 export default SelectTextFields;
-
-// import * as React from 'react';
-// import Box from '@mui/material/Box';
-// import InputLabel from '@mui/material/InputLabel';
-// import MenuItem from '@mui/material/MenuItem';
-// import FormControl from '@mui/material/FormControl';
-// import Select, { SelectChangeEvent } from '@mui/material/Select';
-// import { useTranslation } from 'react-i18next';
-
-// const LanguageSelector: React.FC = () => {
-//   const { t, i18n } = useTranslation();
-//   const [language, setLanguage] = React.useState(i18n.language || 'en');
-
-//   const handleChange = (event: SelectChangeEvent) => {
-//     const newLang = event.target.value as string;
-//     setLanguage(newLang);
-//     i18n.changeLanguage(newLang);
-//   };
-
-//   return (
-//     <Box sx={{ minWidth: 120 }}>
-//       <div>{t('Summary')}</div>
-//       <FormControl fullWidth>
-//         <InputLabel id="language-select-label">Language</InputLabel>
-//         <Select
-//           labelId="language-select-label"
-//           value={language}
-//           onChange={handleChange}
-//         >
-//           <MenuItem value="en">English</MenuItem>
-//           <MenuItem value="cs">Čeština</MenuItem>
-//           <MenuItem value="uk">Українська</MenuItem>
-//         </Select>
-//       </FormControl>
-//     </Box>
-//   );
-// };
-
-// export default LanguageSelector;

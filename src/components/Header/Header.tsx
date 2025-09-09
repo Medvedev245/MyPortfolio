@@ -26,28 +26,28 @@ const Header: React.FC = () => {
           <ListNav>
             <li>
               <LinkElement href="#about" title="About me">
-                {t('summary')}
+                {t('menu.summary')}
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#education" title="Education">
-                {t('about')}
+                {t('menu.about')}
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#skills" title="Skills">
-                {t('skills')}
+                {t('menu.skills')}
               </LinkElement>
             </li>
 
             <li>
               <LinkElement href="#projects" title="Projects">
-                {t('projects')}
+                {t('menu.projects')}
               </LinkElement>
             </li>
             <li>
               <LinkElement href="#contacts" title="Contacts">
-                {t('contacts')}
+                {t('menu.contacts')}
               </LinkElement>
             </li>
           </ListNav>

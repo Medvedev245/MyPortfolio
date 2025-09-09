@@ -1,7 +1,14 @@
 {
-  "summary": "Summary",
-  "about": "About",
-  "skills": "Skills",
-  "projects": "Projects",
-  "contacts": "Contacts"
+  "menu": {
+    "summary": "Summary",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+
+  "summary": {
+    "name": "Ihor Medvediev",
+    "description": "I am an experienced IT professional with a strong background in analytical problem-solving. I am a full-stack developer with knowledge of HTML, CSS, JavaScript, React, and Node.js. I have completed all my projects using the Agile/Scrum methodology and strictly adhering to deadlines. I have excellent interpersonal skills and take a proactive approach to solving problems. I am a fast learner, responsible, and always ready for new challenges. I am looking for opportunities to contribute to a dynamic and innovative IT team."
+  }
 }

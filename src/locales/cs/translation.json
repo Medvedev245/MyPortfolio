@@ -1,7 +1,14 @@
 {
-  "summary": "Přehled",
-  "about": "O mně",
-  "skills": "Dovednosti",
-  "projects": "Projekty",
-  "contacts": "Kontakty"
+  "menu": {
+    "summary": "Přehled",
+    "about": "O mně",
+    "skills": "Dovednosti",
+    "projects": "Projekty",
+    "contacts": "Kontakty"
+  },
+
+  "summary": {
+    "name": "Ihor Medvediev",
+    "description": "Jsem zkušený IT profesionál s pevnými základy v analytickém řešení problémů. Full-stack vývojář s znalostmi HTML, CSS, JavaScriptu, Reactu a Node.js. Všechny své projekty jsem dokončil s využitím metodologie Agile/Scrum a důsledným dodržováním termínů. Mám vynikající mezilidské dovednosti a proaktivní přístup k řešení problémů. Rychle se učím, jsem zodpovědný a vždy připraven na nové výzvy. Hledám příležitosti, jak přispět do dynamického a inovativního IT týmu."
+  }
 }
