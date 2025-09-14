@@ -10,5 +10,12 @@
   "summary": {
     "name": "Ihor Medvediev",
     "description": "Jsem zkušený IT profesionál s pevnými základy v analytickém řešení problémů. Full-stack vývojář s znalostmi HTML, CSS, JavaScriptu, Reactu a Node.js. Všechny své projekty jsem dokončil s využitím metodologie Agile/Scrum a důsledným dodržováním termínů. Mám vynikající mezilidské dovednosti a proaktivní přístup k řešení problémů. Rychle se učím, jsem zodpovědný a vždy připraven na nové výzvy. Hledám příležitosti, jak přispět do dynamického a inovativního IT týmu."
+  },
+
+  "education": {
+    "title": "Několik slov o mně.",
+    "About": "Má cesta",
+    "motivation": "Vaše odhodlání a vytrvalost určují vaši budoucnost. Nikdy se nevzdávejte!",
+    "description": "Ahoj všichni, jmenuji se Igor. Pocházím z Kyjeva na Ukrajině. V současné době žiji a pracuji ve Vysočinské nemocnici v Humpolci v České republice, kde působím již 4 roky. V roce 2012 jsem absolvoval lékařskou univerzitu a krátce poté začal svou lékařskou kariéru. V roce 2021 jsem se však začal zajímat o vývoj jednostránkových webů. Uvědomil jsem si, že potřebuji více strukturovaných znalostí, proto jsem absolvoval kurz HTML/CSS. To, co začalo jako koníček, se rychle stalo mou vášní a určilo směr mé budoucí technologické specializace. Poté jsem od 20. ledna 2023 do 14. února 2024 absolvoval roční kurz Full-Stack Developer a získám certifikát. V současnosti mám více než rok praxe a ve svém portfoliu 8 projektů – týmových i individuálních."
   }
 }
