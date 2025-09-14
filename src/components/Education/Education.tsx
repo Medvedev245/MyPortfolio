@@ -15,7 +15,7 @@ const Education: React.FC = () => {
     <EducationSection>
       <EducationWrap>
         <FewWords>{t('education.title')}</FewWords>
-        <SpanAll>{t('education.About')}</SpanAll>
+        <SpanAll>{t('education.about')}</SpanAll>
         <Motivation>{t('education.motivation')}</Motivation>
         <EducationDescr>{t('education.description')}</EducationDescr>
       </EducationWrap>

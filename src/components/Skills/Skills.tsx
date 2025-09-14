@@ -10,16 +10,19 @@ import {
   SpanSkill,
 } from './Skills.styled';
 import { FewWords } from 'components/Education/Education.styled';
+import { useTranslation } from 'react-i18next';
 
 const Skills: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <SkillsSection>
       <SkillsWrap>
-        <FewWords>My strengths and abilities.</FewWords>
-        <SpanSkill>My skills</SpanSkill>
+        <FewWords>{t('skills.title')}</FewWords>
+        <SpanSkill>{t('skills.about')}</SpanSkill>
         <SkillsBox>
           <Box>
-            <BoxSpan>Tech Skills</BoxSpan>
+            <BoxSpan>{t('skills.tech')}</BoxSpan>
             <BoxList>
               <BoxElement>HTML</BoxElement>
               <BoxElement>CSS</BoxElement>
@@ -43,25 +46,25 @@ const Skills: React.FC = () => {
             </BoxList>
           </Box>
           <Box>
-            <BoxSpan>Soft Skills</BoxSpan>
+            <BoxSpan>{t('skills.soft.soft')}</BoxSpan>
             <BoxList>
-              <BoxElement>Problem-solving</BoxElement>
-              <BoxElement>Teamwork</BoxElement>
-              <BoxElement>Creativity</BoxElement>
-              <BoxElement>Responsibility</BoxElement>
-              <BoxElement>Communication</BoxElement>
-              <BoxElement>Attention to details</BoxElement>
-              <BoxElement>Time management</BoxElement>
-              <BoxElement>Agile/Scrum methodologies</BoxElement>
+              <BoxElement>{t('skills.soft.problem')}</BoxElement>
+              <BoxElement>{t('skills.soft.teamwork')}</BoxElement>
+              <BoxElement>{t('skills.soft.creativity')}</BoxElement>
+              <BoxElement>{t('skills.soft.responsibility')}</BoxElement>
+              <BoxElement>{t('skills.soft.communication')}</BoxElement>
+              <BoxElement>{t('skills.soft.attention')}</BoxElement>
+              <BoxElement>{t('skills.soft.management')}</BoxElement>
+              <BoxElement>{t('skills.soft.methodologies')}</BoxElement>
             </BoxList>
           </Box>
           <Box>
-            <BoxSpan>Languages</BoxSpan>
+            <BoxSpan>{t('skills.languages.languages')}</BoxSpan>
             <BoxList>
-              <BoxElement>Czech Advanced</BoxElement>
-              <BoxElement>English - Upper-Intermediate</BoxElement>
-              <BoxElement>Ukrainian - Native</BoxElement>
-              <BoxElement>Russian - Native</BoxElement>
+              <BoxElement>{t('skills.languages.czech')}</BoxElement>
+              <BoxElement>{t('skills.languages.english')}</BoxElement>
+              <BoxElement>{t('skills.languages.ukrainian')}</BoxElement>
+              <BoxElement>{t('skills.languages.russian')}</BoxElement>
             </BoxList>
           </Box>
         </SkillsBox>

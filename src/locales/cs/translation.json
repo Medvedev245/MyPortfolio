@@ -14,8 +14,32 @@
 
   "education": {
     "title": "Několik slov o mně.",
-    "About": "Má cesta",
+    "about": "Má cesta",
     "motivation": "Vaše odhodlání a vytrvalost určují vaši budoucnost. Nikdy se nevzdávejte!",
     "description": "Ahoj všichni, jmenuji se Igor. Pocházím z Kyjeva na Ukrajině. V současné době žiji a pracuji ve Vysočinské nemocnici v Humpolci v České republice, kde působím již 4 roky. V roce 2012 jsem absolvoval lékařskou univerzitu a krátce poté začal svou lékařskou kariéru. V roce 2021 jsem se však začal zajímat o vývoj jednostránkových webů. Uvědomil jsem si, že potřebuji více strukturovaných znalostí, proto jsem absolvoval kurz HTML/CSS. To, co začalo jako koníček, se rychle stalo mou vášní a určilo směr mé budoucí technologické specializace. Poté jsem od 20. ledna 2023 do 14. února 2024 absolvoval roční kurz Full-Stack Developer a získám certifikát. V současnosti mám více než rok praxe a ve svém portfoliu 8 projektů – týmových i individuálních."
+  },
+
+  "skills": {
+    "title": "Co umím",
+    "about": "Moje dovednosti",
+    "tech": "Technické dovednosti",
+    "soft": {
+      "soft": "Měkké dovednosti",
+      "problem": "Řešení problémů",
+      "teamwork": "Týmová práce",
+      "creativity": "Kreativita",
+      "responsibility": "Odpovědnost",
+      "communication": "Komunikace",
+      "attention": "Důraz na detail",
+      "management": "Řízení času",
+      "methodologies": "Metodiky Agile/Scrum"
+    },
+    "languages": {
+      "languages": "Jazyky",
+      "czech": "Čeština – Pokročilý",
+      "english": "Angličtina – Upper-Intermediate",
+      "ukrainian": "Ukrajinština – Rodilý mluvčí",
+      "russian": "Ruština – Rodilý mluvčí"
+    }
   }
 }
