@@ -41,5 +41,42 @@
       "ukrainian": "Украинский – Родной",
       "russian": "Русский – Родной"
     }
+  },
+
+  "projects": {
+    "title": "Мои проекты",
+    "about": "Портфолио"
+  },
+
+  "FirstProject": {
+    "description": "Пет-проект. Веб-сайт для просмотра фильмов. Содержит шапку, основную часть и подвал. В шапке расположены логотип и навигация, в основной части — основной контент, а в подвале ссылки на социальные сети. На сайте можно просматривать не только информацию о выбранном фильме, но также об актёрах и отзывах."
+  },
+
+  "SecondProject": {
+    "description": "Portfolio"
+  },
+
+  "ThirdProject": {
+    "description": "Portfolio"
+  },
+
+  "FourthProject": {
+    "description": "Portfolio"
+  },
+
+  "FifthProject": {
+    "description": "Portfolio"
+  },
+
+  "SixthProject": {
+    "description": "Portfolio"
+  },
+
+  "SeventhProject": {
+    "description": "Portfolio"
+  },
+
+  "EighthProject": {
+    "description": "Portfolio"
   }
 }

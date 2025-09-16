@@ -5,6 +5,9 @@ export const HeaderWrap = styled.div`
   width: 100%;
   background-color: rgba(66, 64, 68, 1);
   margin-bottom: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 `;
 
 export const HeaderContainer = styled.header`

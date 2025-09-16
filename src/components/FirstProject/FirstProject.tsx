@@ -14,20 +14,17 @@ import {
 } from './FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import FirstPhoto from '../../Files/Project-1.jpg';
+import { useTranslation } from 'react-i18next';
 
 const FirstProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>1. MyMovies</NameProject>
       <ContainerElement>
         <Element>
-          <DescrProject>
-            Pet project. Website fors watching movies. Has header, main, footer.
-            The header contains the logo and navigation, the main contains the
-            main content, and the footer contains links to social networks. On
-            the site you can view not only information on the selected film, but
-            also actors and reviews.
-          </DescrProject>
+          <DescrProject>{t('FirstProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
             <BoxElement>CSS</BoxElement>

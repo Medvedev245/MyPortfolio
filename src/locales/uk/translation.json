@@ -41,5 +41,42 @@
       "ukrainian": "Українська – Рідна",
       "russian": "Російська – Рідна"
     }
+  },
+
+  "projects": {
+    "title": "Мої проєкти",
+    "about": "Портфоліо"
+  },
+
+  "FirstProject": {
+    "description": "Пет-проєкт. Вебсайт для перегляду фільмів. Містить хедер, основну частину та футер. У хедері розташовані логотип і навігація, в основній частині — головний контент, а у футері — посилання на соціальні мережі. На сайті можна переглядати не лише інформацію про обраний фільм, а й про акторів та відгуки."
+  },
+
+  "SecondProject": {
+    "description": "Portfolio"
+  },
+
+  "ThirdProject": {
+    "description": "Portfolio"
+  },
+
+  "FourthProject": {
+    "description": "Portfolio"
+  },
+
+  "FifthProject": {
+    "description": "Portfolio"
+  },
+
+  "SixthProject": {
+    "description": "Portfolio"
+  },
+
+  "SeventhProject": {
+    "description": "Portfolio"
+  },
+
+  "EighthProject": {
+    "description": "Portfolio"
   }
 }

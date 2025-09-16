@@ -41,5 +41,42 @@
       "ukrainian": "Ukrajinština – Rodilý mluvčí",
       "russian": "Ruština – Rodilý mluvčí"
     }
+  },
+
+  "projects": {
+    "title": "Mé projekty",
+    "about": "Portfolio"
+  },
+
+  "FirstProject": {
+    "description": "Pet projekt. Webová stránka pro sledování filmů. Obsahuje hlavičku, hlavní část a patičku. V hlavičce je logo a navigace, v hlavní části hlavní obsah a v patičce odkazy na sociální sítě. Na webu je možné zobrazit nejen informace o vybraném filmu, ale také o hercích a recenzích."
+  },
+
+  "SecondProject": {
+    "description": "Portfolio"
+  },
+
+  "ThirdProject": {
+    "description": "Portfolio"
+  },
+
+  "FourthProject": {
+    "description": "Portfolio"
+  },
+
+  "FifthProject": {
+    "description": "Portfolio"
+  },
+
+  "SixthProject": {
+    "description": "Portfolio"
+  },
+
+  "SeventhProject": {
+    "description": "Portfolio"
+  },
+
+  "EighthProject": {
+    "description": "Portfolio"
   }
 }

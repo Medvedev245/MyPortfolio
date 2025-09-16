@@ -8,7 +8,7 @@ import { MainContainer } from './Main.styled';
 const Main: React.FC = () => {
   return (
     <MainContainer>
-      <div id="summary">
+      <div id="about">
         <Summary />
       </div>
       <div id="education">

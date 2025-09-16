@@ -41,5 +41,41 @@
       "ukrainian": "Ukrainian - Native",
       "russian": "Russian - Native"
     }
+  },
+
+  "projects": {
+    "about": "Portfolio"
+  },
+
+  "FirstProject": {
+    "description": "Pet project. Website fors watching movies. Has header, main, footer. The header contains the logo and navigation, the main contains the main content, and the footer contains links to social networks. On the site you can view not only information on the selected film, but also actors and reviews."
+  },
+
+  "SecondProject": {
+    "description": "Portfolio"
+  },
+
+  "ThirdProject": {
+    "description": "Portfolio"
+  },
+
+  "FourthProject": {
+    "description": "Portfolio"
+  },
+
+  "FifthProject": {
+    "description": "Portfolio"
+  },
+
+  "SixthProject": {
+    "description": "Portfolio"
+  },
+
+  "SeventhProject": {
+    "description": "Portfolio"
+  },
+
+  "EighthProject": {
+    "description": "Portfolio"
   }
 }
