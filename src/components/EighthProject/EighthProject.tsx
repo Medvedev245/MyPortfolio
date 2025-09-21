@@ -14,19 +14,18 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import SecondPhoto from '../../Files/Project-8.jpg';
+import { useTranslation } from 'react-i18next';
 
 const EighthProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>8. MyPortfolio</NameProject>
       <ContainerElement>
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
-          <DescrProject>
-            Pet project: "MyPortfolio" website detailing my work experience,
-            completed courses, and all my projects with links to GitHub and live
-            pages.
-          </DescrProject>
+          <DescrProject>{t('EighthProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
             <BoxElement>CSS 3</BoxElement>

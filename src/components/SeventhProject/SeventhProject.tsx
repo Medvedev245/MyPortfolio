@@ -14,18 +14,17 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import FirstPhoto from '../../Files/Project-7.jpg';
+import { useTranslation } from 'react-i18next';
 
 const SeventhProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>7. MyPhoneBook</NameProject>
       <ContainerElement>
         <Element>
-          <DescrProject>
-            Pet project. A phonebook for recording phone numbers with options to
-            create and edit entries. It also includes a search feature. The
-            project is built with React using hooks.
-          </DescrProject>
+          <DescrProject>{t('SixthProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
             <BoxElement>CSS</BoxElement>
