@@ -14,20 +14,18 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import SecondPhoto from '../../Files/Project-6.jpg';
+import { useTranslation } from 'react-i18next';
 
 const SixthProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>6. Image Finder</NameProject>
       <ContainerElement>
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
-          <DescrProject>
-            Pet project: a website for browsing and searching images based on a
-            given theme. The site features API integration and pagination,
-            offering a beautiful, lightweight, and elegant project for my
-            portfolio.!
-          </DescrProject>
+          <DescrProject>{t('SixthProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
             <BoxElement>CSS 3</BoxElement>

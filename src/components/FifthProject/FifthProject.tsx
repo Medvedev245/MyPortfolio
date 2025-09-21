@@ -14,19 +14,17 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import SecondPhoto from '../../Files/Project-5.jpg';
+import { useTranslation } from 'react-i18next';
 
 const FifthProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>5. Tasty-Treats</NameProject>
       <ContainerElement>
         <Element>
-          <DescrProject>
-            Team project. Welcome to TastyTreats, your go-to online culinary
-            haven! Discover a world of delicious recipes from around the globe,
-            where you can explore, create, and connect with fellow food
-            enthusiasts !
-          </DescrProject>
+          <DescrProject>{t('FifthProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
             <BoxElement>CSS 3</BoxElement>

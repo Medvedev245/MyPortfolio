@@ -14,23 +14,17 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import FirstPhoto from '../../Files/Project-3.jpg';
+import { useTranslation } from 'react-i18next';
 
 const FirstProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>3. TaskPro</NameProject>
       <ContainerElement>
         <Element>
-          <DescrProject>
-            Team project. "TaskPro" web application with user registration.
-            Works with the server database to store tasks. Adaptive layout.
-            Role: developer - FrontEnd.
-            <br></br>
-            "TaskPro" is a user-friendly task board that helps teams organize
-            tasks and track progress effortlessly. Its intuitive design enhances
-            collaboration and productivity, making project management smooth and
-            efficient.
-          </DescrProject>
+          <DescrProject>{t('ThirdProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
             <BoxElement>CSS</BoxElement>

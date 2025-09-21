@@ -52,23 +52,23 @@
   },
 
   "SecondProject": {
-    "description": "Portfolio"
+    "description": "Awesome commercial project. Website for taking and studying tests. Has header, main, footer. The header contains the logo and navigation, the main contains the main content, and the footer contains links to social networks. To date, the page has been accessed 40 400 times, according to Google Search Console!"
   },
 
   "ThirdProject": {
-    "description": "Portfolio"
+    "description": "Team project. „TaskPro“ web application with user registration. Works with the server database to store tasks. Adaptive layout. Role: developer - FrontEnd. „TaskPro“ is a user-friendly task board that helps teams organize tasks and track progress effortlessly. Its intuitive design enhances collaboration and productivity, making project management smooth and efficient."
   },
 
   "FourthProject": {
-    "description": "Portfolio"
+    "description": "Team project built with pure (vanilla) HTML and CSS, with minimal use of JavaScript. Indulge in the finest handcrafted chocolates and have a variety of exquisite flavors delivered right to your door."
   },
 
   "FifthProject": {
-    "description": "Portfolio"
+    "description": "Team project. Welcome to TastyTreats — your online haven for culinary discoveries! Explore a world of delicious recipes from around the globe, where you can discover, cook, and connect with fellow food lovers! The website includes a header, main, and footer. Features include sorting, adding to Favorites, and a shopping cart."
   },
 
   "SixthProject": {
-    "description": "Portfolio"
+    "description": "Pet project: a website for browsing and searching images based on a given theme. The site features API integration and pagination, offering a beautiful, lightweight, and elegant project for my portfolio.!"
   },
 
   "SeventhProject": {

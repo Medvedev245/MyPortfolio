@@ -14,21 +14,18 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import SecondPhoto from '../../Files/Project-2.jpg';
+import { useTranslation } from 'react-i18next';
 
 const FirstProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>2. Doctor_Tests</NameProject>
       <ContainerElement>
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
-          <DescrProject>
-            Aweasome Pet project. Website for taking and studying tests. Has
-            header, main, footer. The header contains the logo and navigation,
-            the main contains the main content, and the footer contains links to
-            social networks. <br></br> To date, the page has been accessed
-            24.300 times, according to Google Search Console !
-          </DescrProject>
+          <DescrProject>{t('SecondProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML</BoxElement>
             <BoxElement>CSS</BoxElement>

@@ -14,20 +14,18 @@ import {
 } from '../FirstProject/FirstProject.styled';
 import { BoxElement } from 'components/Skills/Skills.styled';
 import SecondPhoto from '../../Files/Project-4.jpg';
+import { useTranslation } from 'react-i18next';
 
 const FourthProject: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsElement>
       <NameProject>4. Je le ferai</NameProject>
       <ContainerElement>
         <ImgProject src={SecondPhoto} alt="#" />
         <Element>
-          <DescrProject>
-            Team project built with pure (vanilla) HTML and CSS, with minimal
-            use of JavaScript. <br></br>Indulge in the finest handcrafted
-            chocolates and have a variety of exquisite flavors delivered right
-            to your door.
-          </DescrProject>
+          <DescrProject>{t('FourthProject.description')}</DescrProject>
           <ProjectBoxList>
             <BoxElement>HTML 5</BoxElement>
             <BoxElement>CSS 3</BoxElement>

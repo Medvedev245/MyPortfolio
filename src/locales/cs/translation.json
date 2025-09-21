@@ -53,23 +53,23 @@
   },
 
   "SecondProject": {
-    "description": "Portfolio"
+    "description": "Skvělý komerční projekt. Webová stránka pro psaní a studium testů. Obsahuje záhlaví, hlavní část a zápatí. V záhlaví je logo a navigace, v hlavní části je hlavní obsah a v zápatí odkazy na sociální sítě. Podle Google Search Console byla stránka dosud navštívena 40 400 krát!"
   },
 
   "ThirdProject": {
-    "description": "Portfolio"
+    "description": "Týmový projekt. Webová aplikace „TaskPro“ s registrací uživatelů. Pracuje se serverovou databází pro ukládání úkolů. Responzivní rozvržení. Role: vývojář — FrontEnd. „TaskPro“ je uživatelsky přívětivá nástěnka úkolů, která pomáhá týmům organizovat úkoly a snadno sledovat postup. Její intuitivní design zlepšuje spolupráci a produktivitu, což činí řízení projektů plynulým a efektivním."
   },
 
   "FourthProject": {
-    "description": "Portfolio"
+    "description": "Týmový projekt vytvořený v čistém (vanilla) HTML a CSS s minimálním použitím JavaScriptu. Dopřejte si ty nejlepší ručně vyráběné čokolády a nechte si doručit rozmanité a vytříbené chutě přímo ke dveřím."
   },
 
   "FifthProject": {
-    "description": "Portfolio"
+    "description": "Týmový projekt. Vítejte v TastyTreats — vašem online ráji pro kulinářské objevy! Objevte svět lahodných receptů z celého světa, kde můžete zkoumat, vařit a spojovat se s ostatními milovníky jídla! Web obsahuje záhlaví, hlavní část a zápatí. Funkce zahrnují třídění, přidávání do Oblíbených a nákupní košík."
   },
 
   "SixthProject": {
-    "description": "Portfolio"
+    "description": "Pet projekt: webová stránka pro prohlížení a vyhledávání obrázků podle zadaného tématu. Web obsahuje integraci s API a stránkování a nabízí krásný, lehký a elegantní projekt do mého portfolia."
   },
 
   "SeventhProject": {
