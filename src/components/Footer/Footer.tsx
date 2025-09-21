@@ -1,13 +1,16 @@
 import React from 'react';
 import { FewWords, SpanAll } from 'components/Education/Education.styled';
 import { ProjectsFooter, FooterWrap, FooterAdress, FooterLink } from './Footer';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <ProjectsFooter id="contacts">
       <FooterWrap>
-        <FewWords>Connect with Us</FewWords>
-        <SpanAll>Contacts</SpanAll>
+        <FewWords>{t('footer.title')}</FewWords>
+        <SpanAll>{t('footer.about')}</SpanAll>
         <FooterAdress>
           <FooterLink
             href="medvedevigor1988@gmail.com"

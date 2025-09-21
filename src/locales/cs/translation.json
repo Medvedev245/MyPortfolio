@@ -78,5 +78,10 @@
 
   "EighthProject": {
     "description": "Pet projekt: webová stránka „MyPortfolio“, která podrobně představuje mé pracovní zkušenosti, absolvované kurzy a všechny projekty s odkazy na GitHub a živé stránky."
+  },
+
+  "footer": {
+    "title": "Kontaktujte mě",
+    "about": "Kontakty"
   }
 }

@@ -44,6 +44,7 @@
   },
 
   "projects": {
+    "title": "My projects",
     "about": "Portfolio"
   },
 
@@ -77,5 +78,10 @@
 
   "EighthProject": {
     "description": "Pet project: „MyPortfolio“ website detailing my work experience, completed courses, and all my projects with links to GitHub and live pages."
+  },
+
+  "footer": {
+    "title": "Contact me",
+    "about": "Contacts"
   }
 }
