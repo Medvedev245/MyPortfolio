@@ -14,10 +14,6 @@ import { useTranslation } from 'react-i18next';
 const Header: React.FC = () => {
   const { t } = useTranslation();
 
-  // const changeLanguage = (language) => {
-  //   i18n.changeLanguage(language).
-  // };
-
   return (
     <HeaderWrap>
       <HeaderContainer>
@@ -54,7 +50,7 @@ const Header: React.FC = () => {
         </NavBar>
         <SelectTextFields />
 
-        <CustomizedSwitches />
+        {/* <CustomizedSwitches /> */}
       </HeaderContainer>
     </HeaderWrap>
   );
