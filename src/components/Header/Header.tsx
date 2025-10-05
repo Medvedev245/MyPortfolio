@@ -7,7 +7,7 @@ import {
   LinkElement,
   NavBar,
 } from './Header';
-import CustomizedSwitches from 'components/Theme/Theme';
+// import CustomizedSwitches from 'components/Theme/Theme';
 import SelectTextFields from 'components/Language/Language';
 import { useTranslation } from 'react-i18next';
 
